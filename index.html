@@ -17,7 +17,7 @@
 <!-- Google Fonts & Material Symbols -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&amp;family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;0,7..72,700;1,7..72,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Nunito+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
 
 <!-- Tailwind CSS CDN -->
@@ -106,26 +106,25 @@
 <header class="sticky top-0 z-50 bg-[#fcfbf9]/90 backdrop-blur-md border-b border-warm-border transition-all">
 <div class="max-w-5xl mx-auto px-6 py-3.5 flex items-center justify-between">
 <!-- Logo Container -->
-<a class="flex items-center gap-2.5 group" href="#">
+<a class="flex items-center gap-2.5 group" href="/">
 <img alt="Cogni Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 <span class="text-2xl font-bold tracking-tight text-terra-800 font-sans">Cogni</span>
 </a>
 <!-- Tablet Navigation Links -->
 <nav class="hidden md:flex items-center gap-5 text-sm font-semibold text-slate-600">
-<a class="hover:text-terra-600 transition-colors" href="#caracteristicas">Características</a>
-<a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">Copiloto IA</a>
+<a class="hover:text-terra-600 transition-colors" href="#beneficios">Beneficios</a>
+<a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">La Magia (IA)</a>
 <a class="hover:text-terra-600 transition-colors" href="#seguridad">Seguridad</a>
-<a class="hover:text-terra-600 transition-colors" href="#oferta">Precios &amp; Oferta</a>
+<a class="hover:text-terra-600 transition-colors" href="#oferta">Oferta</a>
 <a class="hover:text-terra-600 transition-colors text-terra-700 font-bold" href="#feedback">Sugerencias</a>
 </nav>
 <!-- Action Buttons (Clínicas + Abrir App) -->
 <div class="flex items-center gap-2.5">
-<a class="inline-flex items-center justify-center px-3.5 py-2 text-xs sm:text-sm font-bold text-terra-800 bg-terra-50 hover:bg-terra-100 border border-terra-200 active:scale-95 rounded-xl transition-all shadow-xs" href="/clinicas.html">
+<a class="hidden sm:inline-flex items-center justify-center px-3.5 py-2 text-xs sm:text-sm font-bold text-terra-800 bg-terra-50 hover:bg-terra-100 border border-terra-200 active:scale-95 rounded-xl transition-all shadow-xs" href="/clinicas.html">
   <span class="mr-1.5">🏥</span> Para Clínicas
 </a>
 <a class="inline-flex items-center justify-center px-4 py-2 text-xs sm:text-sm font-bold text-white bg-terra-500 hover:bg-terra-600 active:scale-95 rounded-xl shadow-sm transition-all duration-150" href="https://app.cogni.clinic" target="_blank" rel="noopener noreferrer">
   Abrir app
-  <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 </a>
 </div>
 </div>
@@ -133,52 +132,120 @@
 <!-- END: Navigation -->
 
 <main>
-<!-- BEGIN: Hero Section -->
-<section class="pt-8 pb-12 px-6 max-w-4xl mx-auto text-center" data-purpose="hero-section">
+<!-- BEGIN: Hero Section (Hormozi Hook) -->
+<section class="pt-12 pb-16 px-6 max-w-4xl mx-auto text-center" data-purpose="hero-section">
 <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-terra-50 border border-terra-200/70 text-terra-700 text-xs font-semibold uppercase tracking-wider mb-6 shadow-sm">
 <span class="w-2 h-2 rounded-full bg-terra-500 animate-pulse"></span>
-        Copiloto clínico de voz inteligente &amp; Gestión de consulta
+        El primer software que hace el trabajo por ti
       </div>
-<h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.15] mb-5 tracking-tight">
-        Recupera 10 horas a la semana y mantén todas tus notas clínicas al día <span class="text-terra-600 underline decoration-terra-200 decoration-wavy underline-offset-4">sin esfuerzo adicional</span>.
+<h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-slate-900 leading-[1.15] mb-5 tracking-tight font-headline">
+        Termina tu consulta, cierra la puerta y <span class="text-terra-600 underline decoration-terra-200 decoration-wavy underline-offset-4">vete a casa.</span>
       </h1>
-<p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">
-        Genera historias clínicas perfectas en menos de 2 minutos usando solo tu voz. Sin instalar software complejo. Habla como siempre, la IA hace el resto.
+<p class="text-base sm:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed mb-10 font-medium">
+        Deja de ser el secretario de tu propia consulta. Cogni te escucha, redacta tu nota SOAP perfecta en 90 segundos, le cobra al paciente y le agenda la próxima sesión. <strong class="text-slate-800">Cero papeleo, cero burnout.</strong>
       </p>
 
-<!-- CTA Buttons: Terapeutas + Botón Clínicas -->
+<!-- CTA Buttons -->
 <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
-<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-terra-500 hover:bg-terra-600 active:bg-terra-700 text-white text-base sm:text-lg font-bold rounded-2xl shadow-lg shadow-terra-500/25 transition duration-200 transform active:scale-98" href="#oferta">
-<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-          Generar mi primera historia clínica ahora
-          <svg class="w-5 h-5 ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
-</a>
-<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 bg-white hover:bg-slate-50 border-2 border-terra-200 text-terra-800 text-base font-bold rounded-2xl shadow-xs transition duration-200 transform active:scale-98" href="/clinicas.html">
-  <span>🏥</span> ¿Eres una clínica? Ver solución
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-terra-500 hover:bg-terra-600 active:bg-terra-700 text-white text-lg font-bold rounded-2xl shadow-lg shadow-terra-500/25 transition duration-200 transform active:scale-98" href="#oferta">
+<span>Recuperar mi tiempo hoy</span>
+<span class="material-symbols-outlined text-xl">rocket_launch</span>
 </a>
 </div>
-<p class="text-xs text-slate-500 flex items-center justify-center gap-1.5 font-medium mt-3">
-<svg class="w-3.5 h-3.5 text-terra-500" fill="currentColor" viewBox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
-  Toma menos de 2 minutos • No requiere tarjeta de crédito
+<p class="text-xs text-slate-500 flex items-center justify-center gap-1.5 font-medium mt-4">
+<span class="material-symbols-outlined text-[16px] text-terra-500">lock</span> Plan Gratuito Vitalicio • Sin Tarjeta
 </p>
-
-<div class="mt-8 pt-6 border-t border-warm-border/80 flex flex-wrap justify-center items-center gap-4 text-xs font-medium text-slate-600">
-<span class="inline-flex items-center gap-1.5 bg-warm-muted px-3 py-1.5 rounded-lg border border-warm-border">
-<span class="text-terra-600 font-bold">✓</span> Plan gratuito vitalicio para primeros inscritos
-        </span>
-<span class="inline-flex items-center gap-1.5 bg-warm-muted px-3 py-1.5 rounded-lg border border-warm-border">
-<span class="text-terra-600 font-bold">✓</span> IA opcional por 15 $/mes
-        </span>
-<span class="inline-flex items-center gap-1.5 bg-warm-muted px-3 py-1.5 rounded-lg border border-warm-border">
-<span class="text-terra-600 font-bold">✓</span> Cumplimiento RGPD &amp; HIPAA
-        </span>
-</div>
 </section>
 <!-- END: Hero Section -->
 
-<!-- BEGIN: Clinical App Mockup -->
-<section class="px-6 mb-16 max-w-4xl mx-auto" data-purpose="product-interface-mockup">
-<div class="bg-white rounded-3xl border border-warm-border shadow-soft p-5 sm:p-6 transition">
+<!-- BEGIN: LOS 6 BENEFICIOS TRANSFORMACIONALES PARA PROFESIONALES -->
+<section class="px-6 mb-24 max-w-5xl mx-auto" id="beneficios">
+<div class="text-center mb-14">
+<h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-headline">Tu asistente perfecto e incansable</h2>
+<p class="text-slate-600 text-base mt-3 max-w-2xl mx-auto">
+        Todo lo que odias de tener tu propia consulta, Cogni lo hace por ti para que tú solo te dediques a sanar pacientes.
+      </p>
+</div>
+
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Beneficio 1 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-terra-50 text-terra-600 flex items-center justify-center mb-4 border border-terra-200/50">
+<span class="material-symbols-outlined text-2xl">mic_none</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Transcripción Invisible</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          Presta 100% de atención al paciente. Cogni escucha, filtra modismos y detecta términos clínicos con total fidelidad mientras tú mantienes contacto visual.
+        </p>
+</div>
+
+<!-- Beneficio 2 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4 border border-blue-200/50">
+<span class="material-symbols-outlined text-2xl">auto_fix</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Notas SOAP Mágicas</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          Termina la sesión y, antes de que el paciente salga del despacho, Cogni ya te generó una historia clínica estructurada, impecable y lista para guardar.
+        </p>
+</div>
+
+<!-- Beneficio 3 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4 border border-emerald-200/50">
+<span class="material-symbols-outlined text-2xl">calendar_clock</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Ausentismo Cero</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          Los recordatorios por WhatsApp y Email salen solos. Si un paciente cancela, la agenda se reorganiza. No pierdes dinero por sillas vacías.
+        </p>
+</div>
+
+<!-- Beneficio 4 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 border border-amber-200/50">
+<span class="material-symbols-outlined text-2xl">payments</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Cobros sin Fricción</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          Se acabaron las charlas incómodas de dinero. Link de pago por Stripe o Bizum antes de reservar, y recibos fiscales generados y enviados automáticamente.
+        </p>
+</div>
+
+<!-- Beneficio 5 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4 border border-purple-200/50">
+<span class="material-symbols-outlined text-2xl">psychology</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Memoria de Elefante (Longitudinal)</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          ¿No recuerdas qué le recetaste hace 6 meses o el nombre de su hijo? Pregúntale a Cogni. Escanea el expediente en 1 segundo y te da la respuesta exacta.
+        </p>
+</div>
+
+<!-- Beneficio 6 -->
+<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft hover:shadow-card transition-shadow">
+<div class="w-12 h-12 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center mb-4 border border-slate-200">
+<span class="material-symbols-outlined text-2xl">health_and_safety</span>
+</div>
+<h3 class="text-lg font-bold text-slate-900 mb-2">Secreto Profesional Blindado</h3>
+<p class="text-sm text-slate-600 leading-relaxed">
+          Toda la IA está alojada en servidores seguros. Cumple con el RGPD y la HIPAA. Cero entrenamiento de modelos públicos con tus pacientes. Anonimización automática.
+        </p>
+</div>
+</div>
+</section>
+
+<!-- BEGIN: Clinical App Mockup (La Magia en Acción) -->
+<section class="px-6 mb-24 max-w-5xl mx-auto" id="copiloto-ia">
+<div class="text-center mb-10">
+<h2 class="text-3xl font-extrabold text-slate-900 tracking-tight font-headline">Así se ve la Magia en tu Consulta</h2>
+<p class="text-slate-600 text-base mt-2 max-w-2xl mx-auto">
+        Tú solo haces clic en "Grabar". Del resto nos encargamos nosotros.
+      </p>
+</div>
+
+<div class="bg-white rounded-3xl border border-warm-border shadow-2xl p-5 sm:p-6 transition">
 <div class="flex items-center justify-between border-b border-warm-border pb-4 mb-4">
 <div class="flex items-center gap-2">
 <span class="w-3 h-3 rounded-full bg-red-400 inline-block"></span>
@@ -190,19 +257,20 @@
             </span>
 </div>
 <div class="flex items-center gap-3">
-<span class="bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded-md font-mono font-semibold flex items-center gap-1">⏱ 48:20</span>
+<span class="bg-slate-100 text-slate-700 text-xs px-2.5 py-1 rounded-md font-mono font-semibold">⏱ 48:20</span>
 <span class="bg-terra-50 text-terra-700 border border-terra-200 text-xs px-2.5 py-1 rounded-md font-semibold">● Grabando</span>
 </div>
 </div>
+
 <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-start">
+<!-- Left Column: Audio & Transcript -->
 <div class="md:col-span-6 bg-warm-muted/70 rounded-2xl p-4 border border-warm-border flex flex-col justify-between">
 <div>
 <div class="flex items-center justify-between mb-3 text-xs text-slate-500 border-b border-warm-border/60 pb-2 font-medium">
 <span class="flex items-center gap-1.5 text-slate-700 font-semibold">
-<svg class="w-4 h-4 text-terra-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 100-6 3 3 0 000 6z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
-                  Entrada de audio institucional en alta fidelidad
+<span class="material-symbols-outlined text-terra-500 text-base">mic</span> Entrada de audio clínica
                 </span>
-<span class="text-[11px] font-mono text-terra-700 font-bold bg-terra-100 px-1.5 py-0.5 rounded">99.2% Fidelidad Clínica</span>
+<span class="text-[11px] font-mono text-terra-700 font-bold bg-terra-100 px-1.5 py-0.5 rounded">99.2% Fidelidad</span>
 </div>
 <div class="h-10 bg-white/80 rounded-xl px-3 flex items-center justify-center gap-1.5 border border-warm-border/80 mb-3">
 <span class="w-1 bg-terra-400 rounded-full h-3 wave-bar" style="animation-delay: 0.1s"></span>
@@ -212,20 +280,21 @@
 <span class="w-1 bg-terra-500 rounded-full h-3 wave-bar" style="animation-delay: 0.15s"></span>
 <span class="w-1 bg-terra-600 rounded-full h-8 wave-bar" style="animation-delay: 0.5s"></span>
 <span class="w-1 bg-terra-400 rounded-full h-4 wave-bar" style="animation-delay: 0.25s"></span>
-<span class="w-1 bg-terra-500 rounded-full h-6 wave-bar" style="animation-delay: 0.35s"></span>
 </div>
 <div class="space-y-2.5 text-xs">
 <div class="bg-white p-2.5 rounded-xl border border-warm-border">
 <span class="font-bold text-slate-800 block text-[11px] mb-0.5 text-terra-800">Lucía M. (Paciente) <span class="text-slate-400 font-normal">41:12</span></span>
-<p class="text-slate-600 leading-relaxed italic">"...esta semana he conseguido aplicar la técnica de respiración diafragmática cuando sentí la opresión en el pecho antes de la reunión de equipo. Me calmó bastante, aunque sigo rumiando sobre las evaluaciones semestrales."</p>
+<p class="text-slate-600 leading-relaxed italic">"...conseguí aplicar la técnica de respiración diafragmática cuando sentí la opresión en el pecho antes de la reunión. Me calmó bastante."</p>
 </div>
 <div class="bg-terra-50/80 p-2.5 rounded-xl border border-terra-200/60">
 <span class="font-bold text-terra-900 block text-[11px] mb-0.5">Tú (Terapeuta) <span class="text-terra-700/60 font-normal">41:40</span></span>
-<p class="text-terra-950 leading-relaxed">"Es un avance sumamente valioso que hayas podido registrar la activación corporal antes de que escalara. ¿Qué pensamientos automáticos específicos lograste identificar en ese instante?"</p>
+<p class="text-terra-950 leading-relaxed">"Es un avance sumamente valioso que hayas podido registrar la activación corporal antes de que escalara."</p>
 </div>
 </div>
 </div>
 </div>
+
+<!-- Right Column: SOAP -->
 <div class="md:col-span-6 bg-[#fbfbf9] rounded-2xl p-4 border border-warm-border flex flex-col justify-between">
 <div>
 <div class="flex items-center justify-between mb-3 border-b border-warm-border pb-2">
@@ -242,7 +311,7 @@
 </div>
 <div class="bg-white p-2.5 rounded-lg border-l-4 border-emerald-400 shadow-xs">
 <span class="font-bold text-slate-900 text-[11px] block">O (Objetivo)</span>
-<p class="text-slate-600 text-[11px] leading-snug">Afecto congruente, discurso fluido sin bloqueos cognitivos. Aplica técnica con eficacia autorreportada de 7/10.</p>
+<p class="text-slate-600 text-[11px] leading-snug">Afecto congruente, discurso fluido sin bloqueos cognitivos. Aplica técnica con eficacia 7/10.</p>
 </div>
 <div class="bg-white p-2.5 rounded-lg border-l-4 border-teal-500 shadow-xs">
 <span class="font-bold text-slate-900 text-[11px] block">A (Análisis Clínico)</span>
@@ -255,8 +324,8 @@
 </div>
 </div>
 <div class="mt-4 pt-3 border-t border-warm-border flex items-center justify-between">
-<span class="text-[11px] text-slate-400 flex items-center gap-1">🔒 Revisión deontológica validada</span>
-<button class="px-3.5 py-1.5 bg-terra-500 hover:bg-terra-600 text-white rounded-lg text-xs font-bold shadow-sm transition">Aprobar en Expediente</button>
+<span class="text-[11px] text-slate-400 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">lock</span> Revisión deontológica OK</span>
+<button class="px-4 py-2 bg-terra-500 hover:bg-terra-600 text-white rounded-lg text-xs font-bold shadow-sm transition">Guardar Expediente</button>
 </div>
 </div>
 </div>
@@ -264,101 +333,107 @@
 </section>
 <!-- END: Clinical App Mockup -->
 
-<!-- BEGIN: Features Section -->
-<section class="px-6 mb-20 max-w-4xl mx-auto" id="caracteristicas">
-<div class="text-center mb-10">
-<span class="text-terra-600 font-bold text-xs uppercase tracking-wider block mb-2">Gestión Terapéutica Integral</span>
-<h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Diseñado exclusivamente para el flujo real de tu consulta clínica</h2>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft">
-<h3 class="text-lg font-bold text-slate-900 mb-2">Gestión Inteligente de Agenda</h3>
-<p class="text-xs text-slate-600 leading-relaxed mb-4">Organiza sesiones presenciales y online reduciendo ausencias sin esfuerzo manual.</p>
-</div>
-<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft">
-<h3 class="text-lg font-bold text-slate-900 mb-2">Facturación &amp; Cobros</h3>
-<p class="text-xs text-slate-600 leading-relaxed mb-4">Evita conversaciones incómodas de pagos y mantén la contabilidad al día sin esfuerzo.</p>
-</div>
-<div class="bg-white p-6 rounded-3xl border border-warm-border shadow-soft">
-<h3 class="text-lg font-bold text-slate-900 mb-2">Transcripción Clínica en Vivo</h3>
-<p class="text-xs text-slate-600 leading-relaxed mb-4">Concéntrate 100% en la mirada del paciente mientras Cogni toma apuntes fidedignos.</p>
-</div>
-</div>
-</section>
-<!-- END: Features Section -->
-
-<!-- BEGIN: Copilot IA Showcase -->
-<section class="px-6 mb-20 max-w-4xl mx-auto" id="copiloto-ia">
-<div class="text-center mb-8">
-<div class="inline-flex items-center gap-1.5 px-3 py-1 bg-amber-50 border border-amber-200 text-amber-900 rounded-full text-xs font-semibold mb-3">⚡ Inteligencia Terapéutica Asistida</div>
-<h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900">IA entrenada con criterio clínico, no un modelo genérico</h2>
-</div>
-</section>
-
-<!-- BEGIN: Security Section -->
-<section class="px-6 mb-20 max-w-4xl mx-auto" id="seguridad">
-<div class="bg-white rounded-3xl p-7 border border-warm-border shadow-soft text-center">
-<h2 class="text-2xl font-extrabold text-slate-900 tracking-tight mb-2">La confidencialidad del secreto profesional no es negociable</h2>
-<p class="text-slate-600 text-xs">Cumplimiento estricto de RGPD, HIPAA y estándares sanitarios locales.</p>
-</div>
-</section>
-
-<!-- ================================================================= -->
-<!-- BANNER COGNI PARA CLÍNICAS (Funcionalidades Particulares de Centro) -->
-<!-- ================================================================= -->
-<section class="px-6 mb-20 max-w-4xl mx-auto" id="banner-clinicas">
-  <div class="bg-gradient-to-br from-terra-900 via-terra-800 to-terra-950 rounded-3xl p-7 sm:p-9 text-white relative overflow-hidden shadow-xl border border-terra-700">
-    <div class="absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-terra-600/30 blur-2xl"></div>
-    <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
-      <div class="max-w-xl text-center md:text-left">
-        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-terra-700/70 border border-terra-600 text-terra-200 text-xs font-semibold uppercase tracking-wider mb-3">
-          <span>🏢</span> Solución Multi-Profesional
-        </div>
-        <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-2">
-          ¿Gestionas una clínica, policlínica o centro de salud mental?
-        </h3>
-        <p class="text-xs sm:text-sm text-terra-100/90 leading-relaxed mb-4">
-          Descubre las herramientas exclusivas para equipos: roles de secretaría y recepción, historias clínicas compartidas con control de permisos, facturación consolidada por profesional y panel de supervisión clínica.
-        </p>
-        <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 text-xs text-terra-200 font-semibold">
-          <span>✓ Múltiples agendas y despachos</span>
-          <span>✓ Roles administrativos</span>
-          <span>✓ Facturación agrupada</span>
-        </div>
-      </div>
-      <div class="shrink-0 w-full md:w-auto text-center">
-        <a class="inline-flex items-center justify-center gap-2 w-full md:w-auto px-6 py-4 bg-white hover:bg-terra-50 text-terra-900 font-bold text-sm sm:text-base rounded-2xl shadow-lg transition duration-150 transform active:scale-95" href="/clinicas.html">
-          <span>🏥</span> Ver funciones para Clínicas
-          <svg class="w-4 h-4 text-terra-800" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- BEGIN: Grand Slam Offer Section -->
 <section class="px-6 mb-20 max-w-4xl mx-auto" id="oferta">
-<div class="bg-white rounded-3xl p-6 border-2 border-terra-500 shadow-xl text-center">
-<h2 class="text-2xl font-extrabold text-slate-900 mb-4">Tu tiempo clínico vale demasiado para perderlo transcribiendo</h2>
-<p class="text-sm font-semibold text-slate-800">Accede hoy al sistema completo desde <strong>$0</strong> en plan fundadores o <strong>$15/mes</strong> con IA Copiloto ilimitada.</p>
+<div class="text-center max-w-2xl mx-auto mb-10">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 bg-terra-100 text-terra-800 rounded-full text-xs font-bold uppercase tracking-wider mb-3">
+          🎯 Oferta Fundadores
+        </div>
+<h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight font-headline">
+          El retorno de inversión más alto de tu carrera
+        </h2>
+<div class="mt-5 p-4 rounded-2xl bg-warm-muted border border-warm-border text-center">
+<p class="text-sm sm:text-base font-semibold text-slate-800">
+            "Si tu tiempo vale $1,500/hora y Cogni te ahorra 20 horas al mes copiando notas y persiguiendo pagos, te estamos regalando <span class="text-terra-700 font-extrabold underline decoration-terra-400">$30,000 en tiempo libre o pacientes extra.</span>"
+          </p>
+</div>
+</div>
+
+<!-- Comparison / Pricing Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch max-w-4xl mx-auto">
+<!-- Plan 1: Free -->
+<div class="bg-white rounded-3xl p-6 border border-warm-border shadow-soft flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-2">
+<span class="text-[11px] font-bold uppercase tracking-wider text-slate-500">Primeros 100 Profesionales</span>
+<span class="bg-slate-100 text-slate-700 text-[10px] font-bold px-2 py-0.5 rounded">Cupos 80% Llenos</span>
+</div>
+<h3 class="text-2xl font-bold text-slate-900 font-headline">Plan Gestión Básica</h3>
+<p class="text-xs text-slate-600 mt-1 mb-4">Todo lo administrativo <strong>100% gratuito de por vida</strong> si te registras hoy.</p>
+<div class="mb-6">
+<span class="text-5xl font-extrabold text-slate-900">$0</span>
+</div>
+<ul class="space-y-3 text-xs text-slate-700 mb-6 border-t border-slate-100 pt-4">
+<li class="flex items-center gap-2">✓ <strong>Gestión completa de agenda</strong> y enlace de citas</li>
+<li class="flex items-center gap-2">✓ Recordatorios manuales por email</li>
+<li class="flex items-center gap-2">✓ <strong>Facturación y cobros</strong> (Stripe/Bizum)</li>
+<li class="flex items-center gap-2">✓ Expedientes clínicos cifrados</li>
+</ul>
+</div>
+<a class="w-full py-3.5 px-4 rounded-xl border-2 border-slate-200 text-slate-700 hover:bg-slate-50 font-bold text-xs flex items-center justify-center transition" href="https://app.cogni.clinic">
+          Bloquear cuenta gratuita
+        </a>
+</div>
+
+<!-- Plan 2: Copiloto IA (The Irresistible Flagship) -->
+<div class="bg-gradient-to-b from-terra-50/50 to-white rounded-3xl border-2 border-terra-500 p-6 shadow-2xl relative">
+<div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-terra-500 text-white text-xs font-black px-4 py-1 rounded-full uppercase tracking-wider shadow-md">
+          ⭐ La Oferta Irresistible
+        </div>
+<div>
+<h3 class="text-2xl font-bold text-slate-900 font-headline pt-2">Plan Copiloto IA</h3>
+<p class="text-xs text-slate-600 mt-1 mb-4">Ahorra 10 horas semanales automatizando historias clínicas y comunicaciones.</p>
+<div class="mb-6">
+<span class="text-5xl font-extrabold text-slate-900">$15</span>
+<span class="text-sm text-slate-500 font-medium">/ mes</span>
+</div>
+<ul class="space-y-3 text-xs text-slate-800 mb-6 border-t border-slate-100 pt-4">
+<li class="flex items-center gap-2 font-semibold">✓ Todo lo del Plan Básico</li>
+<li class="flex items-center gap-2 font-bold text-terra-800 bg-terra-50 p-2 rounded-lg">✓ Recordatorios por WhatsApp 100% Automáticos</li>
+<li class="flex items-center gap-2">✓ <strong>Transcripción de audio ilimitada</strong></li>
+<li class="flex items-center gap-2">✓ <strong>Generación de historias SOAP mágicas</strong></li>
+<li class="flex items-center gap-2">✓ Memoria Longitudinal Inteligente</li>
+</ul>
+</div>
+<div class="mt-auto">
+<a class="w-full py-4 px-4 rounded-xl bg-terra-500 hover:bg-terra-600 active:bg-terra-700 text-white font-bold text-sm flex items-center justify-center shadow-lg transition transform active:scale-95" href="https://app.cogni.clinic">
+          Activar mi Copiloto IA Hoy
+        </a>
+<p class="text-[10px] text-center text-slate-400 mt-3 font-medium">Cancela con 1 clic • Sin permanencia</p>
+</div>
+</div>
+</div>
+
+<!-- Risk Reversal Guarantee Box -->
+<div class="mt-8 bg-amber-50/80 border border-amber-200 rounded-3xl p-6 sm:p-8 flex flex-col sm:flex-row items-center gap-6 max-w-4xl mx-auto shadow-sm">
+<div class="w-16 h-16 rounded-2xl bg-amber-100 border border-amber-300 flex items-center justify-center text-amber-700 shrink-0">
+<span class="material-symbols-outlined text-3xl">verified_user</span>
+</div>
+<div>
+<span class="text-[10px] font-black uppercase text-amber-900 tracking-wider bg-amber-200/60 px-2.5 py-1 rounded-md">Garantía Incondicional de 30 Días</span>
+<h4 class="text-lg font-bold text-slate-900 mt-2">Prueba el Copiloto IA con Riesgo Cero</h4>
+<p class="text-sm text-slate-600 leading-relaxed mt-1">
+          "Pruébalo 30 días en tus consultas. Si Cogni no te ahorra al menos 5 horas de trabajo administrativo por semana, aprieta un botón y te devolvemos el 100% de tus $15 dólares. Sin preguntas. Sin llamar a nadie."
+        </p>
+</div>
 </div>
 </section>
+<!-- END: Grand Slam Offer Section -->
 
-<!-- BEGIN: FEEDBACK & CHANGES IN PROGRESS SECTION -->
+<!-- BEGIN: FEEDBACK SECTION (Sección de comunidad) -->
 <section class="px-6 py-16 bg-surface-container-low/60 border-t border-b border-warm-border mb-16" id="feedback">
 <div class="max-w-6xl mx-auto">
-
 <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
 <div class="max-w-2xl">
 <div class="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant text-xs font-semibold uppercase tracking-wider mb-3 shadow-sm">
 <span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
-            Canal Clínico &amp; Co-Creación
+            Co-creado con Profesionales
           </div>
 <h2 class="text-3xl sm:text-4xl font-headline font-bold text-on-surface tracking-tight leading-tight">
-            Sugerencias, Errores y Cambios en Curso
+            Sugerencias y Reportes
           </h2>
 <p class="mt-3 text-sm sm:text-base text-on-surface-variant leading-relaxed font-normal">
-            Tu experiencia en consulta guía directamente el desarrollo de Cogni. Envíanos tu propuesta o reporte técnico y revisa a la derecha las mejoras que nuestro equipo está construyendo ahora mismo.
+            Cogni existe gracias a la retroalimentación de terapeutas reales. Reporta un fallo o cuéntanos qué botón te falta en tu día a día para que lo construyamos.
           </p>
 </div>
 <div class="flex items-center gap-3 bg-surface-container-lowest p-3.5 rounded-2xl shadow-sm border border-outline-variant/30 flex-shrink-0">
@@ -366,242 +441,122 @@
 <div>
 <p class="text-xs font-bold text-on-surface">Equipo de Ingeniería Cogni</p>
 <p class="text-[11px] text-primary flex items-center gap-1 font-medium">
-<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Respuesta en &lt; 24hs clínicas
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span> Resolviendo tickets ahora
             </p>
 </div>
 </div>
 </div>
 
 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-
 <!-- LEFT COLUMN: Form -->
 <div class="lg:col-span-7 bg-surface-container-lowest rounded-3xl p-6 sm:p-8 shadow-soft border border-outline-variant/20 relative overflow-hidden">
 <div class="mb-6">
-<div class="flex items-center justify-between gap-4 mb-2">
-<h3 class="text-xl font-headline font-bold text-on-surface" id="form-heading">
-                Enviar petición o notificar un error
-              </h3>
-<span class="text-xs bg-surface-container text-on-surface-variant px-3 py-1 rounded-full font-mono">v2.8.4</span>
-</div>
-<p class="text-xs sm:text-sm text-on-surface-variant" id="form-subheading">
-                Selecciona la categoría y detalla lo que necesitas ajustar para tu práctica clínica.
-              </p>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-2" id="form-heading">Enviar petición o notificar error</h3>
+<p class="text-xs text-on-surface-variant">Selecciona el tipo de mensaje y descríbenos tu situación.</p>
 </div>
 
 <form class="space-y-5" id="feedback-form" onsubmit="event.preventDefault(); handleSubmit();">
-<div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-2">Tipo de mensaje</label>
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
-<button class="px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-primary/10 text-primary border border-primary/20 shadow-xs" id="type-feature" onclick="selectType('feature')" type="button">
-<span class="material-symbols-outlined text-base">lightbulb</span> Sugerencia
-                </button>
-<button class="px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-surface-container text-on-surface-variant hover:bg-surface-container-high border border-transparent" id="type-bug" onclick="selectType('bug')" type="button">
-<span class="material-symbols-outlined text-base">bug_report</span> Reportar Error
-                </button>
-<button class="px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-surface-container text-on-surface-variant hover:bg-surface-container-high border border-transparent" id="type-ethics" onclick="selectType('ethics')" type="button">
-<span class="material-symbols-outlined text-base">verified_user</span> Privacidad
-                </button>
-</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mb-4">
+<button class="px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-primary/10 text-primary border border-primary/20 shadow-xs" id="type-feature" onclick="selectType('feature')" type="button"><span class="material-symbols-outlined text-base">lightbulb</span> Sugerencia</button>
+<button class="px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-surface-container text-on-surface-variant border border-transparent hover:bg-surface-container-high" id="type-bug" onclick="selectType('bug')" type="button"><span class="material-symbols-outlined text-base">bug_report</span> Reportar Error</button>
 </div>
 
 <div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5" for="input-title">Título <span class="text-error">*</span></label>
-<input class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 border border-transparent" id="input-title" placeholder="Ej: Ajustar formato de exportación o desincronización de audio" required="" type="text">
-</div>
-
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-<div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5" for="select-category">Módulo afectado</label>
-<select class="w-full bg-surface-container-low text-on-surface rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 border border-transparent" id="select-category">
-<option value="soap">Asistente IA y Notas SOAP</option>
-<option value="transcription">Transcripción en vivo</option>
-<option value="calendar">Agenda y Citas</option>
-<option value="billing">Facturación e Pagos</option>
-<option value="security">Seguridad y Privacidad</option>
-</select>
-</div>
-<div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5" for="select-urgency">Impacto en consulta</label>
-<select class="w-full bg-surface-container-low text-on-surface rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 border border-transparent" id="select-urgency">
-<option value="low">🌱 Sugerencia conveniente</option>
-<option selected="" value="medium">⚖️ Importante para mi flujo</option>
-<option value="high">🚨 Bloqueante / Error urgente</option>
-</select>
-</div>
+<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5">Título <span class="text-error">*</span></label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" id="input-title" placeholder="Ej: Me gustaría cambiar el color del calendario" required="" type="text">
 </div>
 
 <div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5" for="input-desc">Descripción <span class="text-error">*</span></label>
-<textarea class="w-full bg-surface-container-low text-on-surface placeholder:text-on-surface-variant/60 rounded-xl p-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all border border-transparent" id="input-desc" placeholder="Escribe aquí los detalles del cambio solicitado o los pasos para reproducir el error..." required="" rows="3"></textarea>
-</div>
-
-<div class="p-3 rounded-xl bg-error-container/30 flex items-start gap-2.5 text-on-surface-variant text-xs">
-<span class="material-symbols-outlined text-error text-base shrink-0 mt-0.5">shield</span>
-<p class="leading-relaxed"><strong class="text-error font-semibold">Deontología:</strong> Por favor, no incluyas nombres ni datos reales de pacientes en las descripciones o capturas.</p>
+<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5">Descripción <span class="text-error">*</span></label>
+<textarea class="w-full bg-surface-container-low text-on-surface rounded-xl p-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" id="input-desc" placeholder="Explícanos los detalles..." required="" rows="3"></textarea>
 </div>
 
 <div>
-<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5" for="input-email">Tu correo de contacto</label>
-<input class="w-full bg-surface-container-low text-on-surface rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40 border border-transparent" id="input-email" type="email" value="dr.usuario@cogni.clinic">
+<label class="block text-xs font-semibold uppercase tracking-wider text-on-surface-variant mb-1.5">Tu Correo (Para avisarte)</label>
+<input class="w-full bg-surface-container-low text-on-surface rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/40" type="email" placeholder="doctor@email.com">
 </div>
 
-<button class="w-full py-3.5 px-6 rounded-xl bg-primary text-on-primary font-bold text-sm hover:bg-primary/95 active:scale-[0.99] transition-all shadow-md flex items-center justify-center gap-2" id="submit-btn" type="submit">
-<span class="material-symbols-outlined text-lg">send</span>
-              Enviar reporte al equipo
+<button class="w-full py-3.5 px-6 rounded-xl bg-primary text-on-primary font-bold text-sm hover:bg-primary/95 transition-all shadow-md flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined text-lg">send</span> Enviar reporte
             </button>
 </form>
 
 <div class="hidden absolute inset-0 bg-surface-container-lowest/95 backdrop-blur-sm p-8 flex flex-col items-center justify-center text-center z-20" id="success-alert">
-<div class="w-14 h-14 rounded-full bg-primary-container text-primary flex items-center justify-center mb-3">
-<span class="material-symbols-outlined text-3xl">task_alt</span>
-</div>
-<h4 class="text-xl font-headline font-bold text-on-surface mb-2">¡Reporte recibido con éxito!</h4>
-<p class="text-xs text-on-surface-variant max-w-sm mb-5 leading-relaxed">Ticket registrado con el código <strong class="text-primary font-mono">#COG-8921</strong>. Te notificaremos por correo sobre su avance.</p>
-<button class="px-5 py-2 rounded-xl bg-surface-container text-on-surface text-xs font-bold hover:bg-surface-container-high transition-colors" onclick="resetFormState()">Enviar otro mensaje</button>
+<div class="w-14 h-14 rounded-full bg-primary-container text-primary flex items-center justify-center mb-3"><span class="material-symbols-outlined text-3xl">task_alt</span></div>
+<h4 class="text-xl font-bold text-on-surface mb-2">¡Recibido!</h4>
+<p class="text-sm text-on-surface-variant mb-5">El equipo técnico ya lo está leyendo.</p>
+<button class="px-5 py-2 rounded-xl bg-surface-container text-on-surface font-bold hover:bg-surface-container-high transition-colors" onclick="resetFormState()">Enviar otro</button>
 </div>
 </div>
 
 <!-- RIGHT COLUMN: Changes in progress -->
 <div class="lg:col-span-5 space-y-6">
-
 <div class="bg-surface-container-lowest rounded-3xl p-6 shadow-soft border border-outline-variant/20">
-<div class="flex items-center justify-between mb-4">
-<div>
-<h3 class="font-headline font-bold text-lg text-on-surface">Cambios en curso y novedades</h3>
-<p class="text-xs text-on-surface-variant">Lo que estamos construyendo e instalando en Cogni</p>
-</div>
-<span class="p-2 rounded-xl bg-primary/10 text-primary">
-<span class="material-symbols-outlined text-xl">construction</span>
-</span>
-</div>
-
+<h3 class="font-headline font-bold text-lg text-on-surface mb-4">En el Taller de Ingeniería 🛠️</h3>
 <div class="space-y-3">
-<div class="p-3.5 rounded-2xl bg-surface-container-low border border-outline-variant/20 space-y-1.5">
-<div class="flex items-center justify-between gap-2">
-<span class="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-primary/15 text-primary flex items-center gap-1">
-<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span> En Desarrollo Activo
-                  </span>
-<span class="text-[10px] text-on-surface-variant font-mono font-bold">85% Completado</span>
+<div class="p-3.5 rounded-2xl bg-surface-container-low border border-outline-variant/20">
+<span class="text-[10px] font-bold text-primary mb-1 block">En Desarrollo Activo</span>
+<h4 class="text-xs font-bold text-on-surface">Plantillas para Peritajes</h4>
 </div>
-<h4 class="text-xs font-headline font-bold text-on-surface">Plantillas personalizadas para informes periciales</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">Estructuras adaptadas a juzgados con importación automática de la psicometría del expediente.</p>
+<div class="p-3.5 rounded-2xl bg-surface-container-low border border-outline-variant/20">
+<span class="text-[10px] font-bold text-primary mb-1 block">En Desarrollo Activo</span>
+<h4 class="text-xs font-bold text-on-surface">Ajuste Whisper (Modismos UY)</h4>
 </div>
-
-<div class="p-3.5 rounded-2xl bg-surface-container-low border border-outline-variant/20 space-y-1.5">
-<div class="flex items-center justify-between gap-2">
-<span class="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-primary/15 text-primary flex items-center gap-1">
-<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span> En Desarrollo Activo
-                  </span>
-<span class="text-[10px] text-on-surface-variant font-mono font-bold">60% Completado</span>
-</div>
-<h4 class="text-xs font-headline font-bold text-on-surface">Ajuste de vocabulario y modismos uruguayos</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">Optimización del modelo de voz Whisper para captar expresiones locales de consulta sin modismos raras.</p>
-</div>
-
-<div class="p-3.5 rounded-2xl bg-surface-container-low border border-outline-variant/20 space-y-1.5">
-<div class="flex items-center justify-between gap-2">
-<span class="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-tertiary-fixed text-on-tertiary-fixed">
-                    Siguiente Prioridad
-                  </span>
-<span class="text-[10px] text-on-surface-variant font-mono">Planificado</span>
-</div>
-<h4 class="text-xs font-headline font-bold text-on-surface">Sincronización con Doctoralia y Google Calendar</h4>
-<p class="text-[11px] text-on-surface-variant leading-relaxed">Evita cruce de agendamientos entre portales externos y la ficha técnica de la clínica.</p>
-</div>
-
-<div class="p-3.5 rounded-2xl bg-primary/5 border border-primary/20 space-y-1">
-<div class="flex items-center justify-between gap-2">
-<span class="px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-primary text-on-primary">
-                    ✓ Recién Lanzado
-                  </span>
-<span class="text-[10px] text-primary font-bold">Ver. 2.8.4</span>
-</div>
-<h4 class="text-xs font-headline font-bold text-on-surface">Exportación de historias clínicas a PDF con membrete colegial</h4>
+<div class="p-3.5 rounded-2xl bg-primary/5 border border-primary/20">
+<span class="text-[10px] font-bold text-primary mb-1 block">✓ Recién Lanzado (v2.8.4)</span>
+<h4 class="text-xs font-bold text-on-surface">Exportación a PDF Membretado</h4>
 </div>
 </div>
 </div>
 
-<div class="p-5 rounded-3xl bg-surface-container-lowest border border-outline-variant/20 shadow-soft space-y-3">
-<div class="flex items-center justify-between">
-<span class="text-xs font-bold text-on-surface flex items-center gap-1.5">
-<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span> Estado de Servidores
-              </span>
-<span class="text-[10px] font-mono font-bold text-primary">SLA 99.98% OK</span>
+<div class="p-5 rounded-3xl bg-surface-container-lowest border border-outline-variant/20 shadow-soft">
+<div class="flex items-center justify-between mb-3">
+<span class="text-xs font-bold text-on-surface flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span> Estado de Servidores</span>
+<span class="text-[10px] font-mono font-bold text-primary">SLA 100%</span>
 </div>
-<div class="space-y-1.5 text-[11px] text-on-surface-variant">
-<div class="flex items-center justify-between">
-<span>• Transcripción de Voz a SOAP:</span>
-<span class="text-primary font-bold">Operativo</span>
+<div class="text-[11px] text-on-surface-variant flex justify-between"><span>IA y Cifrado</span><span class="text-primary font-bold">Operativos</span></div>
 </div>
-<div class="flex items-center justify-between">
-<span>• Cifrado y Expedientes (RGPD):</span>
-<span class="text-primary font-bold">Operativo</span>
-</div>
-<div class="flex items-center justify-between">
-<span>• Envío automático de WhatsApp:</span>
-<span class="text-primary font-bold">Operativo</span>
-</div>
-</div>
-</div>
-
 </div>
 </div>
 </div>
 </section>
-
 <script>
   function selectType(type) {
     const btnFeature = document.getElementById('type-feature');
     const btnBug = document.getElementById('type-bug');
-    const btnEthics = document.getElementById('type-ethics');
     const inputTitle = document.getElementById('input-title');
     const formHeading = document.getElementById('form-heading');
 
-    [btnFeature, btnBug, btnEthics].forEach(btn => {
+    [btnFeature, btnBug].forEach(btn => {
       btn.className = "px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-surface-container text-on-surface-variant hover:bg-surface-container-high border border-transparent";
     });
 
     if (type === 'feature') {
       btnFeature.className = "px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-primary/10 text-primary border border-primary/20 shadow-xs";
-      inputTitle.placeholder = "Ej: Integración de firma digital de consentimiento informado";
-      formHeading.innerText = "Enviar una nueva propuesta";
+      inputTitle.placeholder = "Ej: Añadir color a las citas de primera vez";
+      formHeading.innerText = "Enviar sugerencia";
     } else if (type === 'bug') {
       btnBug.className = "px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-error/10 text-error border border-error/20 shadow-xs";
-      inputTitle.placeholder = "Ej: Error al conectar micrófono o corte en grabación";
-      formHeading.innerText = "Notificar una incidencia o error";
-    } else if (type === 'ethics') {
-      btnEthics.className = "px-3 py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-2 transition-all bg-tertiary/15 text-tertiary border border-tertiary/30 shadow-xs";
-      inputTitle.placeholder = "Ej: Consulta de custodia de grabaciones o encriptación";
-      formHeading.innerText = "Consulta de Privacidad o Deontología";
-    }
+      inputTitle.placeholder = "Ej: La grabadora se frena a los 10 min";
+      formHeading.innerText = "Notificar error";
+    } 
   }
-
-  function handleSubmit() {
-    document.getElementById('success-alert').classList.remove('hidden');
-  }
-
-  function resetFormState() {
-    document.getElementById('feedback-form').reset();
-    document.getElementById('success-alert').classList.add('hidden');
-  }
+  function handleSubmit() { document.getElementById('success-alert').classList.remove('hidden'); }
+  function resetFormState() { document.getElementById('feedback-form').reset(); document.getElementById('success-alert').classList.add('hidden'); }
 </script>
 <!-- END: FEEDBACK SECTION -->
-
 </main>
 
 <!-- BEGIN: Footer -->
-<footer class="border-t border-warm-border bg-white text-slate-600 text-xs py-10 px-6">
-<div class="max-w-4xl mx-auto">
+<footer class="border-t border-warm-border bg-white text-slate-600 text-xs py-10 px-6 mt-10">
+<div class="max-w-5xl mx-auto">
 <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 mb-8">
 <div class="col-span-2 sm:col-span-1">
 <div class="flex items-center gap-2 mb-2">
-<!-- Logo Real de Cogni -->
 <img alt="Cogni Logo" class="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 <span class="font-bold text-slate-900 text-base">Cogni</span>
 </div>
-<p class="text-[11px] text-slate-500 leading-relaxed mb-3">
-            El copiloto de inteligencia artificial y gestión clínica diseñado para psicólogos y profesionales de la salud mental.
-          </p>
+<p class="text-[11px] text-slate-500 leading-relaxed mb-3">El copiloto de inteligencia artificial y gestión diseñado para que los terapeutas recuperen su tiempo libre.</p>
 <div class="flex flex-wrap gap-2 text-[10px] text-terra-700 font-semibold">
 <span class="bg-terra-50 px-2 py-0.5 rounded border border-terra-200">HIPAA Compliant</span>
 <span class="bg-terra-50 px-2 py-0.5 rounded border border-terra-200">GDPR &amp; RGPD</span>
@@ -610,34 +565,30 @@
 <div>
 <h4 class="font-bold text-slate-900 text-xs mb-2.5 uppercase tracking-wider">Plataforma</h4>
 <ul class="space-y-1.5 text-[11px]">
-<li><a class="hover:text-terra-600 transition-colors" href="#caracteristicas">Características</a></li>
-<li><a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">Copiloto IA</a></li>
-<li><a class="hover:text-terra-600 transition-colors font-semibold text-terra-700" href="/clinicas.html">Cogni para Clínicas 🏥</a></li>
-<li><a class="hover:text-terra-600 transition-colors" href="#oferta">Oferta y Precios</a></li>
-<li><a class="hover:text-terra-600 transition-colors" href="#feedback">Sugerencias y Errores</a></li>
+<li><a class="hover:text-terra-600 transition-colors" href="/">Profesionales</a></li>
+<li><a class="hover:text-terra-600 transition-colors font-semibold text-terra-700" href="/clinicas.html">Cogni Clínicas 🏥</a></li>
+<li><a class="hover:text-terra-600 transition-colors" href="#oferta">Planes</a></li>
 </ul>
 </div>
 <div>
 <h4 class="font-bold text-slate-900 text-xs mb-2.5 uppercase tracking-wider">Confianza &amp; Ética</h4>
 <ul class="space-y-1.5 text-[11px]">
-<li><a class="hover:text-terra-600 transition-colors" href="#seguridad">Seguridad y Privacidad</a></li>
-<li><a class="hover:text-terra-600 transition-colors" href="#seguridad">Cumplimiento Normativo</a></li>
+<li><a class="hover:text-terra-600 transition-colors" href="#">Privacidad de Pacientes</a></li>
+<li><a class="hover:text-terra-600 transition-colors" href="#">Términos del Servicio</a></li>
 </ul>
 </div>
 <div>
 <h4 class="font-bold text-slate-900 text-xs mb-2.5 uppercase tracking-wider">Contacto</h4>
 <ul class="space-y-1.5 text-[11px]">
-<li><a class="hover:text-terra-600 transition-colors" href="mailto:hola@cogni.clinic">Soporte Profesional</a></li>
+<li><a class="hover:text-terra-600 transition-colors" href="mailto:hola@cogni.clinic">Soporte Técnico</a></li>
 <li><a class="hover:text-terra-600 transition-colors" href="https://app.cogni.clinic" target="_blank">Abrir aplicación</a></li>
 </ul>
 </div>
 </div>
-<div class="pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-2 text-[10px] text-slate-400">
-<p>© 2026 Cogni Health Technologies. Todos los derechos reservados.</p>
-<p>Diseñado con empatía clínica para la salud mental.</p>
+<div class="pt-6 border-t border-slate-100 flex items-center justify-between text-[10px] text-slate-400">
+<p>© 2026 Cogni Health Technologies.</p>
 </div>
 </div>
 </footer>
-<!-- END: Footer -->
 
 </body></html>
