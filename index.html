@@ -104,25 +104,28 @@
 
 <!-- BEGIN: Navigation -->
 <header class="sticky top-0 z-50 bg-[#fcfbf9]/90 backdrop-blur-md border-b border-warm-border transition-all">
-<div class="max-w-4xl mx-auto px-6 py-3.5 flex items-center justify-between">
+<div class="max-w-5xl mx-auto px-6 py-3.5 flex items-center justify-between">
 <!-- Logo Container -->
 <a class="flex items-center gap-2.5 group" href="#">
 <img alt="Cogni Logo" class="h-9 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 <span class="text-2xl font-bold tracking-tight text-terra-800 font-sans">Cogni</span>
 </a>
 <!-- Tablet Navigation Links -->
-<nav class="hidden sm:flex items-center gap-6 text-sm font-semibold text-slate-600">
+<nav class="hidden md:flex items-center gap-5 text-sm font-semibold text-slate-600">
 <a class="hover:text-terra-600 transition-colors" href="#caracteristicas">Características</a>
 <a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">Copiloto IA</a>
 <a class="hover:text-terra-600 transition-colors" href="#seguridad">Seguridad</a>
 <a class="hover:text-terra-600 transition-colors" href="#oferta">Precios &amp; Oferta</a>
-<a class="hover:text-terra-600 transition-colors text-terra-700 font-bold" href="#feedback">Sugerencias / Errores</a>
+<a class="hover:text-terra-600 transition-colors text-terra-700 font-bold" href="#feedback">Sugerencias</a>
 </nav>
-<!-- Action Button -->
-<div class="flex items-center gap-3">
-<a class="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-terra-500 hover:bg-terra-600 active:scale-95 rounded-xl shadow-sm transition-all duration-150" href="https://app.cogni.clinic" target="_blank" rel="noopener noreferrer">
-          Abrir app
-          <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
+<!-- Action Buttons (Clínicas + Abrir App) -->
+<div class="flex items-center gap-2.5">
+<a class="inline-flex items-center justify-center px-3.5 py-2 text-xs sm:text-sm font-bold text-terra-800 bg-terra-50 hover:bg-terra-100 border border-terra-200 active:scale-95 rounded-xl transition-all shadow-xs" href="/clinicas">
+  <span class="mr-1.5">🏥</span> Para Clínicas
+</a>
+<a class="inline-flex items-center justify-center px-4 py-2 text-xs sm:text-sm font-bold text-white bg-terra-500 hover:bg-terra-600 active:scale-95 rounded-xl shadow-sm transition-all duration-150" href="https://app.cogni.clinic" target="_blank" rel="noopener noreferrer">
+  Abrir app
+  <svg class="w-4 h-4 ml-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path></svg>
 </a>
 </div>
 </div>
@@ -142,17 +145,23 @@
 <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8">
         Genera historias clínicas perfectas en menos de 2 minutos usando solo tu voz. Sin instalar software complejo. Habla como siempre, la IA hace el resto.
       </p>
-<div class="flex flex-col items-center gap-3">
-<a class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-terra-500 hover:bg-terra-600 active:bg-terra-700 text-white text-base sm:text-lg font-bold rounded-2xl shadow-lg shadow-terra-500/25 transition duration-200 transform active:scale-98" href="#oferta">
+
+<!-- CTA Buttons: Terapeutas + Botón Clínicas -->
+<div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-terra-500 hover:bg-terra-600 active:bg-terra-700 text-white text-base sm:text-lg font-bold rounded-2xl shadow-lg shadow-terra-500/25 transition duration-200 transform active:scale-98" href="#oferta">
 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
           Generar mi primera historia clínica ahora
           <svg class="w-5 h-5 ml-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"></path></svg>
 </a>
-<p class="text-xs text-slate-500 flex items-center gap-1.5 font-medium">
-<svg class="w-3.5 h-3.5 text-terra-500" fill="currentColor" viewBox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
-          Toma menos de 2 minutos • No requiere tarjeta de crédito
-        </p>
+<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 bg-white hover:bg-slate-50 border-2 border-terra-200 text-terra-800 text-base font-bold rounded-2xl shadow-xs transition duration-200 transform active:scale-98" href="/clinicas">
+  <span>🏥</span> ¿Eres una clínica? Ver solución
+</a>
 </div>
+<p class="text-xs text-slate-500 flex items-center justify-center gap-1.5 font-medium mt-3">
+<svg class="w-3.5 h-3.5 text-terra-500" fill="currentColor" viewBox="0 0 20 20"><path clip-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" fill-rule="evenodd"></path></svg>
+  Toma menos de 2 minutos • No requiere tarjeta de crédito
+</p>
+
 <div class="mt-8 pt-6 border-t border-warm-border/80 flex flex-wrap justify-center items-center gap-4 text-xs font-medium text-slate-600">
 <span class="inline-flex items-center gap-1.5 bg-warm-muted px-3 py-1.5 rounded-lg border border-warm-border">
 <span class="text-terra-600 font-bold">✓</span> Plan gratuito vitalicio para primeros inscritos
@@ -292,6 +301,39 @@
 <h2 class="text-2xl font-extrabold text-slate-900 tracking-tight mb-2">La confidencialidad del secreto profesional no es negociable</h2>
 <p class="text-slate-600 text-xs">Cumplimiento estricto de RGPD, HIPAA y estándares sanitarios locales.</p>
 </div>
+</section>
+
+<!-- ================================================================= -->
+<!-- BANNER COGNI PARA CLÍNICAS (Funcionalidades Particulares de Centro) -->
+<!-- ================================================================= -->
+<section class="px-6 mb-20 max-w-4xl mx-auto" id="banner-clinicas">
+  <div class="bg-gradient-to-br from-terra-900 via-terra-800 to-terra-950 rounded-3xl p-7 sm:p-9 text-white relative overflow-hidden shadow-xl border border-terra-700">
+    <div class="absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-terra-600/30 blur-2xl"></div>
+    <div class="relative z-10 flex flex-col md:flex-row items-center justify-between gap-6">
+      <div class="max-w-xl text-center md:text-left">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-terra-700/70 border border-terra-600 text-terra-200 text-xs font-semibold uppercase tracking-wider mb-3">
+          <span>🏢</span> Solución Multi-Profesional
+        </div>
+        <h3 class="text-2xl sm:text-3xl font-extrabold tracking-tight text-white mb-2">
+          ¿Gestionas una clínica, policlínica o centro de salud mental?
+        </h3>
+        <p class="text-xs sm:text-sm text-terra-100/90 leading-relaxed mb-4">
+          Descubre las herramientas exclusivas para equipos: roles de secretaría y recepción, historias clínicas compartidas con control de permisos, facturación consolidada por profesional y panel de supervisión clínica.
+        </p>
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 text-xs text-terra-200 font-semibold">
+          <span>✓ Múltiples agendas y despachos</span>
+          <span>✓ Roles administrativos</span>
+          <span>✓ Facturación agrupada</span>
+        </div>
+      </div>
+      <div class="shrink-0 w-full md:w-auto text-center">
+        <a class="inline-flex items-center justify-center gap-2 w-full md:w-auto px-6 py-4 bg-white hover:bg-terra-50 text-terra-900 font-bold text-sm sm:text-base rounded-2xl shadow-lg transition duration-150 transform active:scale-95" href="/clinicas">
+          <span>🏥</span> Ver funciones para Clínicas
+          <svg class="w-4 h-4 text-terra-800" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+        </a>
+      </div>
+    </div>
+  </div>
 </section>
 
 <!-- BEGIN: Grand Slam Offer Section -->
@@ -570,6 +612,7 @@
 <ul class="space-y-1.5 text-[11px]">
 <li><a class="hover:text-terra-600 transition-colors" href="#caracteristicas">Características</a></li>
 <li><a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">Copiloto IA</a></li>
+<li><a class="hover:text-terra-600 transition-colors font-semibold text-terra-700" href="/clinicas">Cogni para Clínicas 🏥</a></li>
 <li><a class="hover:text-terra-600 transition-colors" href="#oferta">Oferta y Precios</a></li>
 <li><a class="hover:text-terra-600 transition-colors" href="#feedback">Sugerencias y Errores</a></li>
 </ul>
