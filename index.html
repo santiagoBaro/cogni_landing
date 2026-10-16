@@ -1,7 +1,7 @@
 <!DOCTYPE html><html class="scroll-smooth" lang="es-UY"><head>
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<title>Cogni — IA y Gestión para Psicólogos y Terapeutas Uruguayos</title>
+<title>Cogni — Plataforma de Gestión Clínica e IA para Profesionales de la Salud</title>
 
 <!-- Favicon -->
 <link rel="icon" type="image/png" href="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
@@ -9,8 +9,8 @@
 <!-- Open Graph / Meta Preview -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://cogni.clinic/">
-<meta property="og:title" content="Cogni — Software Clínico e IA">
-<meta property="og:description" content="Recuperá 10 horas a la semana y mantené tus historias clínicas al día sin esfuerzo. Copiloto de voz para tu consulta en Uruguay.">
+<meta property="og:title" content="Cogni — Software Clínico e Inteligencia Artificial">
+<meta property="og:description" content="Optimiza la gestión de tu consulta, agiliza la redacción de notas SOAP y enfócate en lo que realmente importa: la atención de tus pacientes.">
 <meta property="og:image" content="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 
 <!-- Google Fonts & Material Symbols -->
@@ -45,237 +45,277 @@
 
 <!-- Header (Sticky top) -->
 <header class="sticky top-0 z-50 bg-[#fcfbf9]/90 backdrop-blur-md border-b border-warm-border transition-all">
-<div class="max-w-5xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between">
-<!-- Logo -->
-<a class="flex items-center gap-2.5 group" href="/">
-<img alt="Cogni Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
-<span class="text-xl sm:text-2xl font-bold tracking-tight text-terra-800 font-sans">Cogni</span>
-</a>
-<!-- Tablet/Desktop Nav -->
-<nav class="hidden md:flex items-center gap-5 text-sm font-semibold text-slate-600">
-<a class="hover:text-terra-600 transition-colors" href="#beneficios">Beneficios</a>
-<a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">La IA</a>
-<a class="hover:text-terra-600 transition-colors" href="#oferta">Planes</a>
-<a class="hover:text-terra-600 transition-colors text-terra-700 font-bold" href="#contacto">Contacto</a>
-</nav>
-<!-- Desktop Actions -->
-<div class="hidden md:flex items-center gap-2.5">
-<a class="inline-flex items-center justify-center px-3.5 py-2 text-sm font-bold text-terra-800 bg-terra-50 hover:bg-terra-100 border border-terra-200 active:scale-95 rounded-xl transition-all" href="/clinicas.html">
-  <span class="mr-1.5">🏥</span> Para Clínicas
-</a>
-<a class="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-terra-500 hover:bg-terra-600 active:scale-95 rounded-xl shadow-sm transition-all" href="https://app.cogni.clinic" target="_blank">
-  Abrir app
-</a>
-</div>
-<!-- Mobile Actions (Solo Abrir App arriba) -->
-<div class="md:hidden flex items-center">
-<a class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white bg-terra-500 active:scale-95 rounded-xl shadow-sm" href="https://app.cogni.clinic" target="_blank">
-  Abrir app
-</a>
-</div>
-</div>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-3.5 flex items-center justify-between">
+    <!-- Logo -->
+    <a class="flex items-center gap-2.5 group" href="/">
+      <img alt="Cogni Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
+      <span class="text-xl sm:text-2xl font-bold tracking-tight text-terra-800 font-sans">Cogni</span>
+    </a>
+    <!-- Tablet/Desktop Nav -->
+    <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
+      <a class="hover:text-terra-600 transition-colors" href="#soluciones">Soluciones</a>
+      <a class="hover:text-terra-600 transition-colors" href="#copiloto-ia">Plataforma</a>
+      <a class="hover:text-terra-600 transition-colors" href="#precios">Planes</a>
+      <a class="hover:text-terra-600 transition-colors text-terra-700 font-bold" href="#contacto">Contacto</a>
+    </nav>
+    <!-- Desktop Actions -->
+    <div class="hidden md:flex items-center gap-3">
+      <a class="inline-flex items-center justify-center px-3.5 py-2 text-sm font-bold text-terra-800 bg-terra-50 hover:bg-terra-100 border border-terra-200 active:scale-95 rounded-xl transition-all" href="/clinicas.html">
+        <span class="mr-1.5">🏥</span> Para Clínicas
+      </a>
+      <a class="inline-flex items-center justify-center px-4 py-2 text-sm font-bold text-white bg-terra-500 hover:bg-terra-600 active:scale-95 rounded-xl shadow-sm transition-all" href="https://app.cogni.clinic" target="_blank">
+        Acceder a la app
+      </a>
+    </div>
+    <!-- Mobile Actions -->
+    <div class="md:hidden flex items-center">
+      <a class="inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white bg-terra-500 active:scale-95 rounded-xl shadow-sm" href="https://app.cogni.clinic" target="_blank">
+        Acceder
+      </a>
+    </div>
+  </div>
 </header>
 
-<!-- Menú flotante Mobile (Abajo) para cambiar entre Doctor y Clínica -->
+<!-- Menú flotante Mobile para cambiar entre Profesional y Clínica -->
 <div class="md:hidden fixed bottom-0 left-0 w-full bg-white border-t border-slate-200 p-3 z-50 flex justify-between shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
-<div class="w-1/2 pr-1.5">
-<a class="w-full flex items-center justify-center py-2.5 bg-slate-100 text-slate-800 text-xs font-bold rounded-lg border border-slate-200" href="/">
-      👨‍⚕️ Soy Profesional
+  <div class="w-1/2 pr-1.5">
+    <a class="w-full flex items-center justify-center py-2.5 bg-slate-100 text-slate-800 text-xs font-bold rounded-lg border border-slate-200" href="/">
+      👨‍⚕️ Profesionales
     </a>
-</div>
-<div class="w-1/2 pl-1.5">
-<a class="w-full flex items-center justify-center py-2.5 bg-terra-50 text-terra-800 text-xs font-bold rounded-lg border border-terra-200" href="/clinicas.html">
-      🏥 Soy Clínica
+  </div>
+  <div class="w-1/2 pl-1.5">
+    <a class="w-full flex items-center justify-center py-2.5 bg-terra-50 text-terra-800 text-xs font-bold rounded-lg border border-terra-200" href="/clinicas.html">
+      🏥 Clínicas
     </a>
-</div>
+  </div>
 </div>
 
 <main>
-<!-- HERO -->
-<section class="pt-10 pb-14 px-5 max-w-4xl mx-auto text-center">
-<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-terra-50 border border-terra-200/70 text-terra-700 text-[11px] font-bold uppercase tracking-wider mb-5 shadow-sm">
-<span class="w-2 h-2 rounded-full bg-terra-500 animate-pulse"></span>
-        El copiloto que labura por vos
+  <!-- HERO -->
+  <section class="py-16 sm:py-20 lg:py-24">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mx-auto text-center">
+        <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-terra-50 border border-terra-200/70 text-terra-700 text-[11px] font-bold uppercase tracking-wider mb-6 shadow-sm">
+          <span class="w-2 h-2 rounded-full bg-terra-500 animate-pulse"></span>
+          Plataforma Asistencial Impulsada por IA
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.18] mb-6 font-headline">
+          Recupera hasta 10 horas semanales y mantén tu práctica clínica <span class="text-terra-600 underline decoration-terra-200 decoration-wavy underline-offset-4">al día y sin fricción.</span>
+        </h1>
+        <p class="text-base sm:text-lg text-slate-600 leading-relaxed mb-8 font-medium">
+          Automatiza la documentación clínica, centraliza la agenda y simplifica la gestión administrativa de tu consulta. Diseñado para que dediques tu tiempo a lo más importante: <strong>el bienestar de tus pacientes.</strong>
+        </p>
+
+        <div class="flex flex-col items-center justify-center gap-3">
+          <a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-terra-500 hover:bg-terra-600 text-white text-base font-bold rounded-xl shadow-lg shadow-terra-500/25 active:scale-98 transition-all" href="#precios">
+            <span>Comenzar ahora gratis</span>
+            <span class="material-symbols-outlined text-lg">arrow_forward</span>
+          </a>
+          <p class="text-xs text-slate-500 flex items-center gap-1 font-medium mt-1">
+            <span class="material-symbols-outlined text-[15px] text-terra-500">verified_user</span> Plan inicial sin costo • Sin tarjeta de crédito requerida
+          </p>
+        </div>
       </div>
-<h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 leading-[1.15] mb-5 tracking-tight">
-        Recupera 10 horas a la semana y mantén todas tus notas clínicas al día <span class="text-terra-600 underline decoration-terra-200 decoration-wavy underline-offset-4">sin esfuerzo adicional</span>.
-<p class="text-sm sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed mb-8 font-medium">
-        Dejá de ser el secretario de tu propio consultorio. Cogni te escucha, redacta tu nota SOAP impecable en segundos, le cobra al paciente y le agenda la próxima sesión. <strong class="text-slate-800">Cero papeleo, cero estrés.</strong>
-      </p>
-
-<div class="flex flex-col items-center justify-center gap-3">
-<a class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-terra-500 text-white text-base font-bold rounded-xl shadow-lg shadow-terra-500/25 active:scale-98" href="#oferta">
-<span>Recuperar mi tiempo hoy</span>
-<span class="material-symbols-outlined text-lg">rocket_launch</span>
-</a>
-<p class="text-[11px] text-slate-500 flex items-center gap-1 font-medium mt-2">
-<span class="material-symbols-outlined text-[14px] text-terra-500">lock</span> Plan Gratuito Vitalicio • Sin Tarjeta de crédito
-</p>
-</div>
-</section>
-
-<!-- BENEFICIOS DOCTOR -->
-<section class="px-5 mb-20 max-w-5xl mx-auto" id="beneficios">
-<div class="text-center mb-10">
-<h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 font-headline">Tu asistente perfecto (y que no se queja)</h2>
-<p class="text-slate-600 text-sm mt-3 max-w-xl mx-auto">
-        Todo lo que te da pereza de tener tu propio consultorio, Cogni lo resuelve automático para que vos solo te dediques a tus pacientes.
-      </p>
-</div>
-
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-terra-50 text-terra-600 flex items-center justify-center mb-3 border border-terra-200/50"><span class="material-symbols-outlined">mic_none</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Transcripción Invisible</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">Vos miralo a los ojos al paciente. Cogni escucha, filtra los modismos uruguayos y detecta los términos clínicos perfecto.</p>
-</div>
-
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-3 border border-blue-200/50"><span class="material-symbols-outlined">auto_fix</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Notas SOAP Mágicas</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">Apenas el paciente cruza la puerta para irse, Cogni ya te armó la historia clínica estructurada, prolija y lista para guardar.</p>
-</div>
-
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-3 border border-emerald-200/50"><span class="material-symbols-outlined">calendar_clock</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Cero faltas sin aviso</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">Los recordatorios por WhatsApp salen solos. Si te cancelan, la agenda se acomoda. No perdés más plata por la silla vacía.</p>
-</div>
-
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-3 border border-amber-200/50"><span class="material-symbols-outlined">payments</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Cobros sin fricción</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">Se terminó el momento incómodo de pedir la transferencia. Link de MercadoPago o banco al agendar, y recibos automáticos.</p>
-</div>
-
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-3 border border-purple-200/50"><span class="material-symbols-outlined">psychology</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Memoria de Elefante</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">¿No te acordás qué le recetaste hace 6 meses? Preguntale a Cogni. Escanea toda la historia en un segundo y te tira la posta.</p>
-</div>
-
-<div class="bg-white p-5 rounded-2xl border border-warm-border shadow-soft">
-<div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center mb-3 border border-slate-200"><span class="material-symbols-outlined">health_and_safety</span></div>
-<h3 class="text-base font-bold text-slate-900 mb-1.5">Secreto Profesional</h3>
-<p class="text-[13px] text-slate-600 leading-relaxed">Nada de ChatGPT público. Todo queda cifrado en nuestros servidores médicos. Anonimización automática de nombres.</p>
-</div>
-</div>
-</section>
-
-<!-- MOCKUP APP -->
-<section class="px-5 mb-20 max-w-5xl mx-auto" id="copiloto-ia">
-<div class="bg-white rounded-[2rem] border border-warm-border shadow-2xl p-4 sm:p-6">
-<div class="flex items-center justify-between border-b border-warm-border pb-3 mb-4">
-<div class="flex items-center gap-1.5">
-<span class="w-2.5 h-2.5 rounded-full bg-red-400"></span><span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span><span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
-<span class="ml-2 text-[10px] font-bold text-slate-500 uppercase tracking-widest flex items-center gap-1">
-<span class="w-1.5 h-1.5 rounded-full bg-terra-500 animate-ping"></span> Paciente: Lucía M.
-            </span>
-</div>
-<span class="bg-terra-50 text-terra-700 text-[10px] px-2 py-0.5 rounded font-bold">● Grabando</span>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-<div class="bg-warm-muted/60 rounded-xl p-3 border border-warm-border">
-<div class="text-[10px] text-slate-500 mb-2 font-bold flex justify-between">
-<span><span class="material-symbols-outlined text-[12px] text-terra-500 align-middle">mic</span> Audio en vivo</span>
-<span class="text-terra-600">99% Fidelidad</span>
-</div>
-<div class="space-y-2 text-[11px]">
-<div class="bg-white p-2 rounded-lg border border-warm-border">
-<span class="font-bold text-terra-800 block mb-0.5">Lucía M.</span>
-<p class="text-slate-600 italic">"Esta semana anduve re bien, pude hacer esa respiración que me enseñaste antes de entrar a la reunión y me bajó un montón la ansiedad."</p>
-</div>
-<div class="bg-terra-50 p-2 rounded-lg border border-terra-200/60">
-<span class="font-bold text-terra-900 block mb-0.5">Vos (Terapeuta)</span>
-<p class="text-terra-950">"Qué golazo Lucía. Es tremendo avance que hayas podido frenar y registrar el cuerpo antes de que te gane la cabeza."</p>
-</div>
-</div>
-</div>
-
-<div class="bg-[#fbfbf9] rounded-xl p-3 border border-warm-border flex flex-col justify-between">
-<div>
-<div class="text-[10px] text-slate-500 mb-2 font-bold uppercase tracking-wider">Cogni IA: Nota SOAP</div>
-<div class="space-y-1.5 text-[10px]">
-<div class="bg-white p-2 rounded-md border-l-4 border-terra-500 shadow-sm">
-<span class="font-bold text-slate-900 block">S (Subjetivo)</span>
-<p class="text-slate-600">Refiere franca mejoría en contención de crisis de ansiedad en el ámbito laboral.</p>
-</div>
-<div class="bg-white p-2 rounded-md border-l-4 border-sky-400 shadow-sm">
-<span class="font-bold text-slate-900 block">P (Plan Terapéutico)</span>
-<p class="text-slate-600">Reforzar técnica de respiración diafragmática. Avanzar con reestructuración cognitiva.</p>
-</div>
-</div>
-</div>
-<div class="mt-3 pt-2 border-t border-warm-border flex justify-between items-center">
-<span class="text-[9px] text-slate-400">Revisión OK</span>
-<button class="bg-terra-500 text-white text-[10px] font-bold px-3 py-1.5 rounded-md">Guardar en ficha</button>
-</div>
-</div>
-</div>
-</div>
-</section>
-
-<!-- OFFER (Hormozi style uruguayo) -->
-<section class="px-5 mb-24 max-w-4xl mx-auto" id="oferta">
-<div class="text-center mb-8">
-<div class="inline-flex px-2 py-1 bg-terra-100 text-terra-800 rounded-md text-[10px] font-black uppercase tracking-wider mb-2">🎯 Oferta Fundadores</div>
-<h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-headline">Un negocio redondo para tu consultorio</h2>
-</div>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-<div class="bg-white rounded-2xl p-5 border border-warm-border shadow-sm flex flex-col">
-<span class="text-[10px] font-bold uppercase text-slate-500 mb-1">Primeros 100 Colegiados</span>
-<h3 class="text-xl font-bold text-slate-900 font-headline">Gestión Básica</h3>
-<div class="my-3"><span class="text-4xl font-extrabold text-slate-900">$0</span> <span class="text-xs text-slate-500">/ de por vida</span></div>
-<ul class="space-y-2 text-xs text-slate-700 mb-5 flex-grow">
-<li>✓ Agenda completa y link de reservas</li>
-<li>✓ Recordatorios manuales por email</li>
-<li>✓ Gestión de cobros y facturación</li>
-</ul>
-<a class="w-full py-3 rounded-lg border-2 border-slate-200 text-slate-700 font-bold text-xs text-center" href="https://app.cogni.clinic">Asegurar mi cuenta gratis</a>
-</div>
-
-<div class="bg-terra-50 rounded-2xl p-5 border-2 border-terra-500 shadow-xl flex flex-col relative">
-<div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-terra-500 text-white text-[10px] font-black px-3 py-0.5 rounded-full uppercase shadow-md whitespace-nowrap">⭐ La posta</div>
-<h3 class="text-xl font-bold text-slate-900 font-headline pt-1">Copiloto IA Full</h3>
-<div class="my-3"><span class="text-4xl font-extrabold text-slate-900">$15</span> <span class="text-xs text-slate-500">/ mes</span></div>
-<ul class="space-y-2 text-xs text-slate-800 mb-5 flex-grow">
-<li class="font-semibold">✓ Todo lo del plan gratuito</li>
-<li class="font-bold text-terra-800">✓ Recordatorios por WhatsApp 100% Automáticos</li>
-<li class="font-bold">✓ Transcripción de audio ilimitada</li>
-<li class="font-bold">✓ Generación de historias SOAP al toque</li>
-</ul>
-<a class="w-full py-3 rounded-lg bg-terra-500 text-white font-bold text-xs text-center shadow-md active:scale-95 transition" href="https://app.cogni.clinic">Activar IA y liberar mis tardes</a>
-<p class="text-[9px] text-center text-slate-400 mt-2">Cancelás cuando querés. Sin tarjeta atada.</p>
-</div>
-</div>
-</section>
-
-<!-- FOOTER ACTUALIZADO CON CONTACTO -->
-<footer id="contacto" class="border-t border-warm-border bg-white text-slate-600 text-xs py-10 px-5 pb-24 md:pb-10">
-<div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
-  <div class="flex flex-col items-center md:items-start gap-3">
-    <div class="flex items-center gap-2">
-      <img alt="Cogni" class="h-5 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
-      <span class="font-bold text-slate-900 text-sm">Cogni</span>
     </div>
-    <p class="text-[11px] text-slate-500">Inteligencia clínica en acción.</p>
-  </div>
-  <div class="flex flex-col items-center md:items-start gap-2">
-    <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Contacto</h4>
-    <a href="mailto:info@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px]">mail</span> info@cogni.clinic</a>
-    <a href="mailto:ventas@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px]">storefront</span> ventas@cogni.clinic</a>
-    <a href="mailto:soporte@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px]">support_agent</span> soporte@cogni.clinic</a>
-  </div>
-  <div class="flex flex-col items-center md:items-start gap-2">
-    <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Ubicación</h4>
-    <p class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px]">location_on</span> Montevideo, Uruguay</p>
-  </div>
-</div>
-<div class="max-w-5xl mx-auto mt-8 pt-6 border-t border-slate-100 text-center">
-  <p class="text-[10px] text-slate-400">© 2026 Cogni Health.</p>
-</div>
-</footer>
+  </section>
+
+  <!-- BENEFICIOS / CARACTERÍSTICAS -->
+  <section class="py-12 sm:py-16 lg:py-20" id="soluciones">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 font-headline">Todo lo que necesitas para gestionar tu consulta en un solo lugar</h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-4 leading-relaxed">
+          Herramientas inteligentes diseñadas bajo estándares clínicos que reducen la carga administrativa y optimizan cada etapa de la atención.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-terra-50 text-terra-600 flex items-center justify-center mb-4 border border-terra-200/50"><span class="material-symbols-outlined">mic_none</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Transcripción Clínica Ambiental</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Conéctate plenamente con tu paciente durante la consulta. Cogni procesa la conversación en tiempo real, interpretando con precisión terminología clínica y particularidades locales.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4 border border-blue-200/50"><span class="material-symbols-outlined">auto_fix</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Generación Automática de Notas SOAP</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Al culminar la sesión, obtén un registro clínico estructurado y homologado, listo para su validación profesional e incorporación inmediata al expediente.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4 border border-emerald-200/50"><span class="material-symbols-outlined">calendar_clock</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Optimización de Agenda y Asistencia</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Reduce drásticamente el ausentismo mediante recordatorios automatizados vía WhatsApp y flujos ágiles de confirmación y reprogramación de turnos.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 border border-amber-200/50"><span class="material-symbols-outlined">payments</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Gestión de Cobranza Integrada</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Elimina la fricción en los honorarios. Habilita pagos digitales al momento de agendar y mantén un registro claro y automatizado de las transacciones.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4 border border-purple-200/50"><span class="material-symbols-outlined">psychology</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Búsqueda Inteligente en el Historial</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Consulta rápidamente antecedentes, intervenciones previas o evoluciones del paciente mediante búsquedas semánticas directas sobre toda la historia clínica.</p>
+          </div>
+        </div>
+
+        <div class="bg-white p-6 sm:p-7 rounded-2xl border border-warm-border shadow-soft flex flex-col justify-between">
+          <div>
+            <div class="w-10 h-10 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center mb-4 border border-slate-200"><span class="material-symbols-outlined">health_and_safety</span></div>
+            <h3 class="text-base font-bold text-slate-900 mb-2">Seguridad y Confidencialidad de Grado Médico</h3>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Tus datos están protegidos bajo protocolos de cifrado robusto y anonimización automática. Cumplimiento riguroso del secreto profesional y normativas de salud.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MOCKUP APP -->
+  <section class="py-12 sm:py-16 lg:py-20" id="copiloto-ia">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-[2rem] border border-warm-border shadow-2xl p-5 sm:p-8">
+        <div class="flex items-center justify-between border-b border-warm-border pb-4 mb-6">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-red-400"></span><span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span><span class="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+            <span class="ml-2 text-[11px] font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1.5">
+              <span class="w-2 h-2 rounded-full bg-terra-500 animate-ping"></span> Consulta en curso • Paciente: L. Martínez
+            </span>
+          </div>
+          <span class="bg-terra-50 text-terra-700 text-xs px-2.5 py-0.5 rounded-full font-bold border border-terra-200/50">● Procesando Audio</span>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="bg-warm-muted/60 rounded-xl p-4 sm:p-5 border border-warm-border">
+            <div class="text-[11px] text-slate-500 mb-3 font-bold flex justify-between uppercase tracking-wider">
+              <span><span class="material-symbols-outlined text-[13px] text-terra-500 align-middle">mic</span> Transcripción en vivo</span>
+              <span class="text-terra-700 font-semibold">99.4% Precisión</span>
+            </div>
+            <div class="space-y-3 text-xs">
+              <div class="bg-white p-3 rounded-lg border border-warm-border">
+                <span class="font-bold text-terra-800 block mb-1">Paciente</span>
+                <p class="text-slate-600 italic">"Pude implementar los ejercicios de respiración diafragmática antes de situaciones de alta demanda en el trabajo y experimenté una disminución notable en los picos de ansiedad."</p>
+              </div>
+              <div class="bg-terra-50 p-3 rounded-lg border border-terra-200/60">
+                <span class="font-bold text-terra-900 block mb-1">Profesional</span>
+                <p class="text-terra-950">"Excelente registro. Es un avance significativo lograr identificar la señal somática previa y aplicar la técnica antes de que la respuesta ansiosa escale."</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-[#fbfbf9] rounded-xl p-4 sm:p-5 border border-warm-border flex flex-col justify-between">
+            <div>
+              <div class="text-[11px] text-slate-500 mb-3 font-bold uppercase tracking-wider flex justify-between items-center">
+                <span>Estructuración Clínica SOAP</span>
+                <span class="text-[10px] text-terra-700 bg-terra-100/70 px-2 py-0.5 rounded font-mono font-medium">IA Asistencial</span>
+              </div>
+              <div class="space-y-2.5 text-xs">
+                <div class="bg-white p-3 rounded-md border-l-4 border-terra-500 shadow-sm">
+                  <span class="font-bold text-slate-900 block text-[11px] mb-0.5">S — Subjetivo</span>
+                  <p class="text-slate-600 text-[11px] leading-relaxed">Paciente refiere mejoría clínica sostenida mediante la aplicación de técnicas de autorregulación frente a estresores laborales.</p>
+                </div>
+                <div class="bg-white p-3 rounded-md border-l-4 border-sky-400 shadow-sm">
+                  <span class="font-bold text-slate-900 block text-[11px] mb-0.5">P — Plan Terapéutico</span>
+                  <p class="text-slate-600 text-[11px] leading-relaxed">Consolidar estrategias de respiración diafragmática. Continuar con el módulo de reestructuración de distorsiones cognitivas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-5 pt-3.5 border-t border-warm-border flex justify-between items-center">
+              <span class="text-[10px] text-slate-500 font-medium">Revisión requerida por el facultativo</span>
+              <button class="bg-terra-500 hover:bg-terra-600 text-white text-xs font-bold px-3.5 py-1.5 rounded-lg shadow-sm transition">Validar e incorporar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OFERTA / PLANES -->
+  <section class="py-12 sm:py-16 lg:py-20" id="precios">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-12 sm:mb-16">
+        <div class="inline-flex px-3 py-1 bg-terra-100 text-terra-800 rounded-md text-[11px] font-bold uppercase tracking-wider mb-3">Planes flexibles</div>
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 font-headline">Diseñado para adaptarse a cada etapa de tu consulta</h2>
+        <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">Comienza gratis y escala a herramientas avanzadas de inteligencia artificial cuando lo necesites.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 max-w-4xl mx-auto">
+        <!-- Plan Inicial -->
+        <div class="bg-white rounded-2xl p-6 sm:p-8 border border-warm-border shadow-sm flex flex-col justify-between">
+          <div>
+            <span class="text-[11px] font-bold uppercase text-slate-500 tracking-wider">Plan Inicial</span>
+            <h3 class="text-xl font-bold text-slate-900 font-headline mt-1">Gestión Esencial</h3>
+            <div class="my-4"><span class="text-4xl font-extrabold text-slate-900">$0</span> <span class="text-xs text-slate-500">/ acceso permanente</span></div>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">Todas las funciones fundamentales para organizar tus pacientes y tu agenda sin costo alguno.</p>
+            <ul class="space-y-3 text-xs text-slate-700 mb-6">
+              <li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[16px] text-terra-500">check</span> Agenda integral y portal de reservas para pacientes</li>
+              <li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[16px] text-terra-500">check</span> Recordatorios de consulta por correo electrónico</li>
+              <li class="flex items-center gap-2.5"><span class="material-symbols-outlined text-[16px] text-terra-500">check</span> Registro básico de cobros y facturación</li>
+            </ul>
+          </div>
+          <a class="w-full py-3 rounded-xl border border-slate-300 hover:border-slate-400 text-slate-800 font-bold text-xs text-center transition block" href="https://app.cogni.clinic">Comenzar sin costo</a>
+        </div>
+
+        <!-- Plan Pro -->
+        <div class="bg-terra-50 rounded-2xl p-6 sm:p-8 border-2 border-terra-500 shadow-xl flex flex-col justify-between relative">
+          <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-terra-500 text-white text-[10px] font-bold px-3 py-0.5 rounded-full uppercase tracking-wider shadow-md whitespace-nowrap">Recomendado</div>
+          <div>
+            <span class="text-[11px] font-bold uppercase text-terra-800 tracking-wider">Plan Profesional</span>
+            <h3 class="text-xl font-bold text-slate-900 font-headline mt-1">Copiloto Clínico IA</h3>
+            <div class="my-4"><span class="text-4xl font-extrabold text-slate-900">$15</span> <span class="text-xs text-slate-500">/ mes</span></div>
+            <p class="text-xs text-slate-600 mb-6 leading-relaxed">Automatización asistencial completa para profesionales que buscan optimizar al máximo su tiempo.</p>
+            <ul class="space-y-3 text-xs text-slate-800 mb-6">
+              <li class="flex items-center gap-2.5 font-medium"><span class="material-symbols-outlined text-[16px] text-terra-600">check_circle</span> Incluye todas las funcionalidades de Gestión Esencial</li>
+              <li class="flex items-center gap-2.5 font-bold text-terra-900"><span class="material-symbols-outlined text-[16px] text-terra-600">check_circle</span> Recordatorios automatizados por WhatsApp</li>
+              <li class="flex items-center gap-2.5 font-semibold"><span class="material-symbols-outlined text-[16px] text-terra-600">check_circle</span> Transcripción clínica ilimitada en tiempo real</li>
+              <li class="flex items-center gap-2.5 font-semibold"><span class="material-symbols-outlined text-[16px] text-terra-600">check_circle</span> Generación instantánea de notas SOAP homologadas</li>
+            </ul>
+          </div>
+          <div>
+            <a class="w-full py-3 rounded-xl bg-terra-500 hover:bg-terra-600 text-white font-bold text-xs text-center shadow-md active:scale-95 transition block" href="https://app.cogni.clinic">Activar Plan Profesional</a>
+            <p class="text-[10px] text-center text-slate-500 mt-2">Flexibilidad mensual • Cancela en cualquier momento</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contacto" class="border-t border-warm-border bg-white text-slate-600 text-xs pt-16 pb-24 md:pb-16">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+        <div class="flex flex-col items-center md:items-start gap-3">
+          <div class="flex items-center gap-2">
+            <img alt="Cogni" class="h-5 w-auto" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
+            <span class="font-bold text-slate-900 text-sm">Cogni</span>
+          </div>
+        <p class="text-[11px] text-slate-500">Inteligencia clínica en acción.</p>
+        </div>
+        <div class="flex flex-col items-center md:items-start gap-2.5">
+          <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Contacto</h4>
+          <a href="mailto:info@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-2"><span class="material-symbols-outlined text-[15px]">mail</span> info@cogni.clinic</a>
+          <a href="mailto:ventas@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-2"><span class="material-symbols-outlined text-[15px]">storefront</span> ventas@cogni.clinic</a>
+          <a href="mailto:soporte@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-2"><span class="material-symbols-outlined text-[15px]">support_agent</span> soporte@cogni.clinic</a>
+        </div>
+        <div class="flex flex-col items-center md:items-start gap-2.5">
+          <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Ubicación</h4>
+          <p class="flex items-center gap-2"><span class="material-symbols-outlined text-[15px]">location_on</span> Montevideo, Uruguay</p>
+        </div>
+      </div>
+      <div class="mt-12 pt-6 border-t border-slate-100 text-center">
+        <p class="text-[10px] text-slate-400">© 2026 Cogni Health. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
 </main>
 </body></html>
