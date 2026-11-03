@@ -6,15 +6,23 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Cogni Clínicas — Plataforma Operativa Integral para Centros de Salud</title>
 
+  <!-- SEO Primario -->
+  <meta name="description"
+    content="Centraliza la operación de tu centro médico: agendas unificadas, flujos clínicos automatizados e interoperabilidad post-consulta con IA asistencial.">
+  <link rel="canonical" href="https://cogni.clinic/clinicas.html">
+
   <!-- Favicon -->
   <link rel="icon" type="image/png"
     href="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cogni.clinic/clinicas.html">
   <meta property="og:title" content="Cogni para Clínicas y Centros Médicos">
   <meta property="og:description"
     content="Optimiza la operación de tu institución de salud. Agendas unificadas, flujos clínicos automatizados y coordinación de equipos sin fricción.">
+  <meta property="og:image"
+    content="https://lh3.googleusercontent.com/aida-public/AB6AXuD0HLlnW6fut93lZkPJMzjKhOfo9MVgdmriu8tlK3Z-AytbxpHozpzR6hsE8xTIzECaUDpgoBi2fB7n-IQfFur0xXPURFi5BhU-Enh0MhfQLbCW5Q5FYToNr9FxAkEqbginEpmuYH9ps3s3uEgfU8kCQ_tZub0_0vWeiovEqRw84Q2JJdIFpI-RRylnr2Q8Q5tefaudf8qfLY9-HHwyMJq5ggMU8dKfRDjRfDLGcDIvyH9bisMLZULmRoVyut3PNM7wssg">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
@@ -52,8 +60,11 @@
       display: none;
     }
   </style>
-  <script defer src="https://cloud.umami.is/script.js" data-website-id="1c7e65f2-6d02-4478-801b-a4a914e63801"></script>
-<script defer src="https://cloud.umami.is/script.js" data-website-id="1c7e65f2-6d02-4478-801b-a4a914e63801"></script>
+
+  <!-- Umami Analytics -->
+  <script defer src="https://cloud.umami.is/script.js" data-website-id="1c7e65f2-6d02-4478-801b-a4a914e63801"
+    data-domains="cogni.clinic,www.cogni.clinic">
+    </script>
 </head>
 
 <body class="bg-warm-bg text-slate-800 antialiased selection:bg-terra-100 selection:text-terra-900 pb-20 md:pb-0">
@@ -67,49 +78,57 @@
         <span class="text-xl sm:text-2xl font-bold text-terra-800">Cogni <span
             class="text-[10px] align-top bg-terra-100 px-1.5 py-0.5 rounded text-terra-700 uppercase font-semibold">Clínicas</span></span>
       </a>
+
       <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-slate-600">
         <a class="hover:text-terra-600 transition-colors" href="#soluciones">Soluciones</a>
         <a class="hover:text-terra-600 transition-colors" href="#workflows">Flujos Clínicos</a>
         <a class="hover:text-terra-600 transition-colors" href="#gestion">Gestión de Equipos</a>
         <a class="hover:text-terra-600 text-terra-700 font-bold transition-colors" href="#contacto">Contacto</a>
       </nav>
+
       <div class="hidden md:flex items-center gap-3">
         <a class="inline-flex items-center px-3.5 py-2 text-sm font-bold text-slate-600 hover:bg-slate-100 border border-transparent rounded-xl transition-all"
-          href="/">
+          href="/" data-umami-event="Switch Audiencia" data-umami-event-origen="navbar"
+          data-umami-event-destino="profesionales">
           👨‍⚕️ Profesionales
         </a>
         <a class="inline-flex items-center px-4 py-2 text-sm font-bold text-white bg-slate-900 hover:bg-black rounded-xl shadow-sm transition-all"
-          href="mailto:ventas@cogni.clinic">
+          href="mailto:ventas@cogni.clinic" data-umami-event="Solicitar Demo" data-umami-event-ubicacion="navbar">
           Solicitar Demostración
         </a>
       </div>
+
       <div class="md:hidden flex items-center">
         <a class="inline-flex items-center px-3 py-1.5 text-xs font-bold text-white bg-slate-900 rounded-lg shadow-sm"
-          href="mailto:ventas@cogni.clinic">Demostración</a>
+          href="mailto:ventas@cogni.clinic" data-umami-event="Solicitar Demo"
+          data-umami-event-ubicacion="navbar_mobile">
+          Demostración
+        </a>
       </div>
     </div>
   </header>
 
-  <!-- Menú flotante Mobile para alternar entre Profesional y Clínica -->
+  <!-- Menú Mobile Switcher -->
   <div
     class="md:hidden fixed bottom-0 left-0 w-full bg-white border-t border-slate-200 p-3 z-50 flex justify-between shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
     <div class="w-1/2 pr-1.5">
       <a class="w-full flex items-center justify-center py-2.5 bg-slate-100 text-slate-800 text-xs font-bold rounded-lg border border-slate-200"
-        href="/">
+        href="/" data-umami-event="Switch Audiencia" data-umami-event-origen="bottom_nav_mobile"
+        data-umami-event-destino="profesionales">
         👨‍⚕️ Profesionales
       </a>
     </div>
     <div class="w-1/2 pl-1.5">
-      <a class="w-full flex items-center justify-center py-2.5 bg-terra-50 text-terra-800 text-xs font-bold rounded-lg border border-terra-200"
-        href="/clinicas.html">
+      <span
+        class="w-full flex items-center justify-center py-2.5 bg-terra-50 text-terra-800 text-xs font-bold rounded-lg border border-terra-200 opacity-60">
         🏥 Clínicas
-      </a>
+      </span>
     </div>
   </div>
 
   <main>
     <!-- HERO -->
-    <section class="pt-12 md:pt-16 pb-14 md:pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center">
+    <section class="pt-12 md:pt-16 pb-14 md:pb-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto text-center" id="hero">
       <div
         class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-terra-50 border border-terra-200/70 text-terra-700 text-[11px] font-bold uppercase tracking-wider mb-5 shadow-sm">
         <span class="material-symbols-outlined text-[14px]">apartment</span> Plataforma de Gestión Institucional
@@ -127,18 +146,18 @@
 
       <div class="flex justify-center">
         <a class="inline-flex items-center gap-2 px-8 py-4 bg-slate-900 hover:bg-black text-white text-base font-bold rounded-xl shadow-lg active:scale-95 transition-all"
-          href="mailto:ventas@cogni.clinic">
+          href="mailto:ventas@cogni.clinic" data-umami-event="Solicitar Demo" data-umami-event-ubicacion="hero">
           <span>Agendar una Demostración</span>
           <span class="material-symbols-outlined text-lg">calendar_month</span>
         </a>
       </div>
     </section>
 
-    <!-- BENEFICIOS / SOLUCIONES INSTITUCIONALES -->
+    <!-- SOLUCIONES INSTITUCIONALES -->
     <section class="px-4 sm:px-6 lg:px-8 mb-16 md:mb-24 max-w-5xl mx-auto" id="soluciones">
       <div class="text-center mb-10 md:mb-14">
         <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 font-headline">Diseñado para resolver los desafíos
-          operacionales de instituciones de salud</h2>
+          operacionales de centros de salud</h2>
         <p class="text-slate-600 text-sm sm:text-base mt-3 max-w-2xl mx-auto">
           Herramientas colaborativas que conectan a recepcionistas, cuerpo médico y áreas asistenciales en un único
           ecosistema digital.
@@ -150,11 +169,12 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-terra-50 text-terra-600 flex items-center justify-center mb-4 border border-terra-200/50">
-              <span class="material-symbols-outlined">edit_off</span></div>
+              <span class="material-symbols-outlined">edit_off</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Retención y Productividad Médica</h3>
-            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Reduce drásticamente el agotamiento
-              profesional. La IA transcribe la consulta y estructura la historia clínica automáticamente, permitiendo a
-              los especialistas centrarse en el acto médico.</p>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Reduce el agotamiento profesional. La IA
+              transcribe la consulta y estructura la historia clínica automáticamente, permitiendo a los especialistas
+              centrarse en el acto médico.</p>
           </div>
         </div>
 
@@ -162,7 +182,8 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-amber-50 text-amber-600 flex items-center justify-center mb-4 border border-amber-200/50">
-              <span class="material-symbols-outlined">checklist_rtl</span></div>
+              <span class="material-symbols-outlined">checklist_rtl</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Trazabilidad y Asignación de Tareas</h3>
             <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Asigna y monitorea indicaciones a
               departamentos clave (Laboratorio, Enfermería, Farmacia) o a profesionales puntuales, con registro de
@@ -174,11 +195,12 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center mb-4 border border-blue-200/50">
-              <span class="material-symbols-outlined">calendar_month</span></div>
+              <span class="material-symbols-outlined">calendar_month</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Gestión Centralizada de Agendas</h3>
-            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Visibilidad cruzada y en tiempo real de
-              todos los consultorios. Recordatorios multicanal automatizados que reducen las tasas de inasistencia a
-              mínimos institucionales.</p>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Visibilidad cruzada de todos los
+              consultorios. Recordatorios multicanal automatizados que reducen las tasas de inasistencia a mínimos
+              institucionales.</p>
           </div>
         </div>
 
@@ -186,11 +208,12 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center mb-4 border border-purple-200/50">
-              <span class="material-symbols-outlined">support_agent</span></div>
+              <span class="material-symbols-outlined">support_agent</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Canal de Admisión Omnicanal 24/7</h3>
             <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Asistente conversacional automatizado que
               permite a los pacientes reagendar turnos y consultar preparación para estudios las 24 horas, optimizando
-              el tiempo del equipo de recepción.</p>
+              la recepción.</p>
           </div>
         </div>
 
@@ -198,11 +221,12 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center mb-4 border border-emerald-200/50">
-              <span class="material-symbols-outlined">psychology</span></div>
+              <span class="material-symbols-outlined">psychology</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Soporte a la Decisión Clínica</h3>
             <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Alertas de interacciones farmacológicas y
               advertencias clínicas en tiempo real durante la atención, rigurosamente alineadas con los protocolos
-              médicos de tu institución.</p>
+              médicos institucionales.</p>
           </div>
         </div>
 
@@ -210,17 +234,17 @@
           <div>
             <div
               class="w-10 h-10 rounded-xl bg-slate-100 text-slate-700 flex items-center justify-center mb-4 border border-slate-200">
-              <span class="material-symbols-outlined">account_tree</span></div>
+              <span class="material-symbols-outlined">account_tree</span>
+            </div>
             <h3 class="text-base font-bold text-slate-900 mb-2">Interoperabilidad y Continuidad</h3>
-            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Al finalizar la consulta, Cogni genera y
-              distribuye órdenes a farmacia, laboratorio o derivaciones interdepartamentales de manera estandarizada y
-              segura.</p>
+            <p class="text-xs sm:text-[13px] text-slate-600 leading-relaxed">Al finalizar la consulta, Cogni distribuye
+              órdenes a farmacia, laboratorio o derivaciones interdepartamentales de manera estandarizada y segura.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- SECCIÓN: WORKFLOWS -->
+    <!-- WORKFLOWS -->
     <section class="px-4 sm:px-6 lg:px-8 mb-16 md:mb-24 max-w-5xl mx-auto" id="workflows">
       <div class="bg-slate-900 rounded-[2rem] p-6 sm:p-10 text-white shadow-2xl relative overflow-hidden">
         <div class="absolute right-0 top-0 w-80 h-80 bg-terra-500/20 rounded-full blur-3xl pointer-events-none"></div>
@@ -232,19 +256,15 @@
             class="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-800 text-terra-400 rounded-full text-xs font-black uppercase tracking-widest mb-3 border border-slate-700">
             <span class="material-symbols-outlined text-[15px]">account_tree</span> Automatización de Procesos Clínicos
           </span>
-          <h2 class="text-2xl sm:text-4xl font-extrabold font-headline mb-3 text-white">
-            Flujos de Trabajo: Orquestación Integral Post-Consulta
-          </h2>
+          <h2 class="text-2xl sm:text-4xl font-extrabold font-headline mb-3 text-white">Flujos de Trabajo: Orquestación
+            Post-Consulta</h2>
           <p class="text-sm sm:text-base text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
             Al concluir la atención médica, la plataforma detecta, consolida y distribuye automáticamente todas las
-            indicaciones resultantes: órdenes de laboratorio, derivaciones y recetas médicas en un solo paso.
+            indicaciones: órdenes de laboratorio, derivaciones y recetas médicas.
           </p>
         </div>
 
-        <!-- Grid de 4 Pasos -->
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 relative z-10">
-
-          <!-- Paso 1 -->
           <div
             class="bg-slate-800/90 rounded-2xl p-5 border border-slate-700 flex flex-col justify-between hover:border-slate-500 transition-colors">
             <div>
@@ -256,10 +276,8 @@
                   class="text-[10px] font-mono uppercase bg-slate-700/60 text-slate-300 px-2 py-0.5 rounded">Inicio</span>
               </div>
               <h4 class="text-sm font-bold text-white mb-1.5">Atención Clínica</h4>
-              <p class="text-xs text-slate-300 leading-relaxed">
-                El especialista realiza la consulta asistencial mientras Cogni procesa la interacción de forma ambiental
-                y no intrusiva.
-              </p>
+              <p class="text-xs text-slate-300 leading-relaxed">El especialista realiza la consulta asistencial mientras
+                Cogni procesa la interacción de forma ambiental y no intrusiva.</p>
             </div>
             <div
               class="mt-4 pt-3 border-t border-slate-700/60 flex items-center gap-1.5 text-[11px] text-terra-400 font-medium">
@@ -267,7 +285,6 @@
             </div>
           </div>
 
-          <!-- Paso 2 -->
           <div
             class="bg-slate-800/90 rounded-2xl p-5 border border-slate-700 flex flex-col justify-between hover:border-slate-500 transition-colors">
             <div>
@@ -279,10 +296,8 @@
                   class="text-[10px] font-mono uppercase bg-slate-700/60 text-amber-300 px-2 py-0.5 rounded">Detección</span>
               </div>
               <h4 class="text-sm font-bold text-white mb-1.5">Propuesta de Acciones</h4>
-              <p class="text-xs text-slate-300 leading-relaxed">
-                La plataforma identifica los procedimientos necesarios según el diálogo clínico y estructura las órdenes
-                correspondientes.
-              </p>
+              <p class="text-xs text-slate-300 leading-relaxed">La plataforma identifica procedimientos según el diálogo
+                clínico y estructura las órdenes correspondientes.</p>
             </div>
             <div class="mt-4 pt-3 border-t border-slate-700/60 text-[10px] text-slate-400 font-mono space-y-1">
               <div class="text-amber-200/90">📋 Estudio Cardiológico</div>
@@ -290,7 +305,6 @@
             </div>
           </div>
 
-          <!-- Paso 3 -->
           <div
             class="bg-slate-800/90 rounded-2xl p-5 border border-slate-700 flex flex-col justify-between hover:border-slate-500 transition-colors">
             <div>
@@ -302,10 +316,8 @@
                   class="text-[10px] font-mono uppercase bg-slate-700/60 text-sky-300 px-2 py-0.5 rounded">Validación</span>
               </div>
               <h4 class="text-sm font-bold text-white mb-1.5">Supervisión Médica</h4>
-              <p class="text-xs text-slate-300 leading-relaxed">
-                El facultativo valida, ajusta o aprueba los flujos propuestos con un único clic, garantizando control
-                clínico absoluto.
-              </p>
+              <p class="text-xs text-slate-300 leading-relaxed">El facultativo valida, ajusta o aprueba los flujos
+                propuestos con un único clic, garantizando control clínico absoluto.</p>
             </div>
             <div
               class="mt-4 pt-3 border-t border-slate-700/60 flex items-center gap-1.5 text-[11px] text-sky-400 font-medium">
@@ -313,7 +325,6 @@
             </div>
           </div>
 
-          <!-- Paso 4 -->
           <div
             class="bg-gradient-to-b from-terra-900 to-terra-950 rounded-2xl p-5 border-2 border-terra-500 shadow-xl flex flex-col justify-between relative overflow-hidden">
             <div class="absolute -right-6 -bottom-6 w-20 h-20 bg-terra-500/20 rounded-full blur-xl pointer-events-none">
@@ -327,22 +338,19 @@
                   class="text-[10px] font-mono uppercase bg-terra-800 text-terra-200 font-bold px-2 py-0.5 rounded">Ejecución</span>
               </div>
               <h4 class="text-sm font-bold text-white mb-1.5">Distribución Inmediata</h4>
-              <p class="text-xs text-terra-100 leading-relaxed">
-                Los flujos se ejecutan de manera simultánea: integración directa con sistemas de laboratorio, farmacias
-                y agendas interdepartamentales.
-              </p>
+              <p class="text-xs text-terra-100 leading-relaxed">Los flujos se ejecutan en simultáneo: integración
+                directa con sistemas de laboratorio, farmacias y agendas.</p>
             </div>
             <div
               class="mt-4 pt-3 border-t border-terra-800 flex items-center gap-1.5 text-[11px] text-emerald-300 font-bold">
               <span class="material-symbols-outlined text-sm">bolt</span> Cero fricción administrativa
             </div>
           </div>
-
         </div>
       </div>
     </section>
 
-    <!-- SECCIÓN: GESTIÓN INSTITUCIONAL Y PORTAL -->
+    <!-- GESTIÓN INSTITUCIONAL -->
     <section class="px-4 sm:px-6 lg:px-8 mb-16 md:mb-24 max-w-5xl mx-auto" id="gestion">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
         <div class="order-2 lg:order-1">
@@ -389,7 +397,10 @@
                 <div><span class="text-[11px] font-bold block text-slate-800">Extracción de muestras — Sala
                     4</span><span class="text-[9px] text-slate-500">Asignado a: Enfermería</span></div>
                 <button
-                  class="text-[10px] font-bold bg-white text-slate-700 px-2.5 py-1 rounded border shadow-2xs hover:bg-slate-50">Gestionar</button>
+                  class="text-[10px] font-bold bg-white text-slate-700 px-2.5 py-1 rounded border shadow-2xs hover:bg-slate-50"
+                  data-umami-event="Interaccion Demo" data-umami-event-elemento="boton_gestionar_tarea">
+                  Gestionar
+                </button>
               </div>
             </div>
           </div>
@@ -398,7 +409,7 @@
     </section>
   </main>
 
-  <!-- FOOTER CON CONTACTO -->
+  <!-- FOOTER -->
   <footer id="contacto" class="border-t border-warm-border bg-white text-slate-600 text-xs py-10 px-4 sm:px-6 lg:px-8">
     <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
       <div class="flex flex-col items-center md:items-start gap-3">
@@ -411,12 +422,18 @@
       </div>
       <div class="flex flex-col items-center md:items-start gap-2">
         <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Contacto</h4>
-        <a href="mailto:ventas@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span
-            class="material-symbols-outlined text-[14px]">storefront</span> ventas@cogni.clinic</a>
-        <a href="mailto:soporte@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span
-            class="material-symbols-outlined text-[14px]">support_agent</span> soporte@cogni.clinic</a>
-        <a href="mailto:info@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"><span
-            class="material-symbols-outlined text-[14px]">info</span> info@cogni.clinic</a>
+        <a href="mailto:ventas@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"
+          data-umami-event="Click Contacto" data-umami-event-tipo="ventas">
+          <span class="material-symbols-outlined text-[14px]">storefront</span> ventas@cogni.clinic
+        </a>
+        <a href="mailto:soporte@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"
+          data-umami-event="Click Contacto" data-umami-event-tipo="soporte">
+          <span class="material-symbols-outlined text-[14px]">support_agent</span> soporte@cogni.clinic
+        </a>
+        <a href="mailto:info@cogni.clinic" class="hover:text-terra-600 transition flex items-center gap-1.5"
+          data-umami-event="Click Contacto" data-umami-event-tipo="info">
+          <span class="material-symbols-outlined text-[14px]">info</span> info@cogni.clinic
+        </a>
       </div>
       <div class="flex flex-col items-center md:items-start gap-2">
         <h4 class="font-bold text-slate-900 uppercase tracking-wider text-[10px] mb-1">Ubicación</h4>
@@ -428,6 +445,71 @@
       <p class="text-[10px] text-slate-400">© 2026 Cogni Health. Todos los derechos reservados.</p>
     </div>
   </footer>
+
+  <!-- MOTOR DE MEDICIÓN AVANZADA -->
+  <script>
+      (function () {
+        function track(event, data) {
+          if (typeof window.umami !== 'undefined' && typeof window.umami.track === 'function') {
+            window.umami.track(event, data);
+          }
+        }
+
+        // 1. Visibilidad de Secciones Clave
+        if ('IntersectionObserver' in window) {
+          const sections = document.querySelectorAll('main > section[id], footer[id]');
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                track('Seccion Vista', { seccion: entry.target.id });
+                observer.unobserve(entry.target);
+              }
+            });
+          }, { threshold: 0.35 });
+          sections.forEach(sec => observer.observe(sec));
+        }
+
+        // 2. Profundidad de Scroll (25%, 50%, 75%, 90%)
+        const scrollMilestones = [25, 50, 75, 90];
+        const reachedMilestones = new Set();
+        window.addEventListener('scroll', () => {
+          const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
+          if (scrollHeight <= 0) return;
+          const currentPercent = Math.round((window.scrollY / scrollHeight) * 100);
+
+          scrollMilestones.forEach(m => {
+            if (currentPercent >= m && !reachedMilestones.has(m)) {
+              reachedMilestones.add(m);
+              track('Profundidad Scroll', { porcentaje: m });
+            }
+          });
+        }, { passive: true });
+
+        // 3. Tiempo de Permanencia (30s, 60s, 120s)
+        const timeMilestones = [30, 60, 120];
+        timeMilestones.forEach(sec => {
+          setTimeout(() => {
+            if (!document.hidden) {
+              track('Tiempo en Pagina', { segundos: sec });
+            }
+          }, sec * 1000);
+        });
+
+        // 4. Delegación de Clicks (Mailto, App Externa)
+        document.addEventListener('click', (e) => {
+          const link = e.target.closest('a');
+          if (!link) return;
+          const href = link.getAttribute('href') || '';
+
+          if (href.startsWith('mailto:')) {
+            const email = href.replace('mailto:', '').split('?')[0];
+            track('Click Contacto', { canal: 'email', destino: email });
+          } else if (href.includes('app.cogni.clinic')) {
+            track('Click Acceso App', { destino: href });
+          }
+        });
+      })();
+  </script>
 </body>
 
 </html>
